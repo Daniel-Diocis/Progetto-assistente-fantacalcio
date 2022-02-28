@@ -1,7 +1,6 @@
 # Progetto-assistente-fantacalcio
-
-Sviluppatori:
-
-Daniel Diocis Calero
-
-Enrico Maria Flati
+<div align="center">
+  
+# Progetto-Programmazione-Ad-Oggetti
+## ASSISTENTE FANTACALCIO
+</div>
