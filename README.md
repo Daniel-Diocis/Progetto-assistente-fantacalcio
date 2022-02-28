@@ -9,11 +9,19 @@
 </div>
 <div align="center">
 
-###                                     INTRODUZIONE
+###                                     INTRODUZIONE:it:
   
 </div>
 
-Il fantacaclio è un gioco virtuale basato sul calcio, nella quale tu puoi immedesimarti nei panni di un fanta-allenatore e creare la rosa più forte acquistando giocatori, appartenenti alla realtà tramite un'asta,utilizzando dei fanta-crediti, progredendo nella lega ottenendo punti grazie alle giocate di tali giocatori come per esempio assist, goal.Ora non so se tu che stai leggendo giochi al fantacalcio o vorresti cominciare, ma sicuramente le domande che leggo piu spesso o alle volte mi faccio io stesso sono: C'è un modo che schierare prima dell'inzio della giornata la formazione giusta senza sbagliare?Inserisco sempre tutti i giocatori che mi permettono di avere più punti alla fine oppure no?.Ecco riferendomi a queste domande più frequenti, io e il mio compagno, anche lui fanta-allenatore come me, Daniel, vogliamo creare una sorta di Fanta-Assistente che aiuti ogni fanta-allentore prima di ogni giornata del fanta-calcio nello scegliere bene sempre modulo,formazione e calciatori da schierare in ogni singolo ruolo così da poter diventare il più forte di tutti!
+Il fantacalcio è un gioco virtuale basato sul calcio, nella quale tu puoi immedesimarti nei panni di un fanta-allenatore e creare la rosa più forte acquistando giocatori, appartenenti alla realtà tramite un'asta,utilizzando dei fanta-crediti, progredendo nella lega ottenendo punti grazie alle giocate di tali giocatori come per esempio assist, goal.Ora non so se tu che stai leggendo giochi al fantacalcio o vorresti cominciare, ma sicuramente le domande che leggo piu spesso o alle volte mi faccio io stesso sono: C'è un modo che schierare prima dell'inzio della giornata la formazione giusta senza sbagliare?Inserisco sempre tutti i giocatori che mi permettono di avere più punti alla fine oppure no?.Ecco riferendomi a queste domande più frequenti, io e il mio compagno, anche lui fanta-allenatore come me, Daniel, vogliamo creare una sorta di Fanta-Assistente che aiuti ogni fanta-allentore prima di ogni giornata del fanta-calcio nello scegliere bene sempre modulo,formazione e calciatori da schierare in ogni singolo ruolo così da poter diventare il più forte di tutti
+
+<div align="center">
+
+###                                     INTRODUCTION:england:
+  
+</div>
+
+Fantasy football is a virtual game based on football, in which you can put yourself in the shoes of a fantasy coach and create the strongest squad by buying players, belonging to reality through an auction, using fantasy credits, progressing in the league by obtaining points thanks to the plays of such players as for example assists, goals.Now I don't know if you who are reading play fantasy football or would like to start, but surely the questions I read more often or sometimes I myself are: Is there a way than to deploy the right formation before the start of the day without making a mistake? Do I always insert all the players who allow me to have more points at the end or not? coach like me, Daniel, we want to create a sort of Fanta-Assistant that helps every fanta-lover before every day of the fanta-football in always choosing well form, formation and football players from sc hierare in every single role so that you can become the strongest of all!
   
 ###                                  CONTENUTI PROGETTO:open_file_folder::it:
 - [DESCRIZIONE DEL PROGETTO:it:](#itdescrizione-del-progettoit)
