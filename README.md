@@ -19,3 +19,16 @@ A)Chiedere chi è meglio schierare tra, per esempio,due giocatori confrontando,a
 B)L'utente prima inseirà il modulo scelto secondo lui e poi l'assistente avrà il compito di modificarlo facendo vedere all'allenatore quale sia meglio;
 C)Inserire i calciatori e poi chiedere all'assistente se vanno bene o cambiarli automaticamente in caso contrario.
 Ongi giocatore inserito ha un suo indice di schierabilità che va da 0 a 99. Questo indice prima riportato va in base a un algoritmo(da definire) che dipende dal ruolo del giocatore (se si mette a confronto dell'assistente un difensore con una fantamedia di 7, nelle ultime 5 giornate, e un centrocampista con la stessa media, è ovvio che l'assistente ti consiglierà di mettere il difensore). Ovviamente, sempre riguardo all'esempio precedente, l'assistente non vedrà solo il voto ma anche se, per esempio, ha giocato titolare o da subentrato o se ha giocato con squadre meno forti della sua secondo gli standard del campionato. Tutti questi dati verranno presi da [Statistiche Fantacalcio](https://www.fantacalcio.it/statistiche-serie-a).
+
+###                                 :england:DESCRIPTION OF THE PROJECT:england:
+
+
+
+
+
+
+
+
+
+
+
