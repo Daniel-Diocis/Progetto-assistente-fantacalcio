@@ -26,9 +26,9 @@ Fantasy football is a virtual game based on football, in which you can put yours
 ###                                  CONTENUTI PROGETTO:open_file_folder::it:
 - [DESCRIZIONE DEL PROGETTO:it:](#itdescrizione-del-progettoit)
 - [DESCRIZIONE DEL PROGETTO:england:](#englanddescription-of-the-projectengland)
-- [CONFIGURAZIONE](#configurazionekey)
-- [DOCUMENTAZIONE](#documentazioneopen_book)
-- [AUTORI](#autori-del-progettoitstudent)
+- [CONFIGURAZIONE:key:](#configurazionekey)
+- [DOCUMENTAZIONE:open_book:](#documentazioneopen_book)
+- [AUTORI:it::student:](#autori-del-progettoitstudent)
 
 
 ###                                :it:DESCRIZIONE DEL PROGETTO:it:  
