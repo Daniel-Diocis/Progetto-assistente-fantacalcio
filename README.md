@@ -29,6 +29,10 @@ Through an application menu, the user will have the possibility to:
 
 Each player inserted has its own deployability index ranging from 0 to 99. This index previously reported is based on an algorithm (to be defined) that depends on the player's role (if a defender is compared to an assistant with a fantamedia of 7, in the last 5 days, and a midfielder with the same average, it is obvious that the assistant will advise you to put the defender). Obviously, again with regard to the previous example, the assistant will not only see the vote but also if, for example, he has played a starter or a substitute or if he has played with teams that are less strong than his according to the standards of the championship. All these data will be taken from [Fantasy Football Statistics](https://www.fantacalcio.it/statistiche-serie-a).
 
+###                                  CONTENUTI PROGETTO:open_file_folder::it:
+- [CONFIGURAZIONE](#configurazione-keyit)
+- [DOCUMENTAZIONE](#documentazione-open_bookit)
+- [AUTORI](#autori-del-progetto-itstudent)
 
 
 
