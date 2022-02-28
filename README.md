@@ -15,7 +15,7 @@ Il fantacaclio è un gioco virtuale basato sul calcio, nella quale tu puoi immed
   
 ###                                  CONTENUTI PROGETTO:open_file_folder::it:
 - [DESCRIZIONE DEL PROGETTO:it:](#itdescrizione-del-progettoit)
-- [DESCRIZIONE DEL PROGETTO:england:](#englanddescrizione-del-progettoengland)
+- [DESCRIZIONE DEL PROGETTO:england:](#englanddescription-of-the-projectengland)
 - [CONFIGURAZIONE](#configurazionekey)
 - [DOCUMENTAZIONE](#documentazioneopen_book)
 - [AUTORI](#autori-del-progettoitstudent)
