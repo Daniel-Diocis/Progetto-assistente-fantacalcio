@@ -1,7 +1,9 @@
-# Progetto-assistente-fantacalcio
+# Logo Assistente Fantacalcio
 <div align="center">
   
-# Progetto-Programmazione-Ad-Oggetti
+![CamScanner.02-27-2022.17.25.pdf](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/files/8155208/CamScanner.02-27-2022.17.25.pdf)
+  
+# Progetto Programmazione Ad Oggetti
 ##                                      ASSISTENTE FANTACALCIO
  
 </div>
