@@ -57,7 +57,7 @@ In questa sezione del progetto io e il mio amico Daniel abbiamo inserito passo p
 
 #### Fase 1: Download ambiente di sviluppo.
 Come prima cosa da fare bisogna scaricare eclipse (ti lascio qui il link per scaricarlo se vuoi :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)),
-ide che abbiamo usato per la nascita della nostra app.
+IDE (Ambiente di Sviluppo Integrato) ovvero un software il quale ci ha permesso di realizzare la nostra applicazione.
 
 <img width="1434" alt="Schermata 2022-03-01 alle 18 43 23" src="https://user-images.githubusercontent.com/99751208/156220910-987d3808-aa61-4883-a115-238f3bbbfdbd.png">
 
