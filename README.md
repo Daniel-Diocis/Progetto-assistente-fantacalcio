@@ -52,9 +52,9 @@ Each player inserted has its own deployability index ranging from 0 to 99. This 
 ###                                    DOCUMENTAZIONE:open_book:
 
 ###                                    AUTORI DEL PROGETTO:it::student:
-Nome | Contributo
--- | :--:
-[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | File Readme,
+Nome | Matricola | Contributo
+-- | :--: | :--:
+[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme,
 [Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 
 
 
