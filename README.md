@@ -59,6 +59,9 @@ In questa sezione del progetto io e il mio amico Daniel abbiamo inserito passo p
 Come prima cosa da fare bisogna scaricare eclipse, ide che abbiamo usato per la programmazione dell'app,(ti lascio qui il link per scaricarlo se vuoi :wink: 
 [Link Download Eclipse](https://www.eclipse.org/downloads/))
 
+!<img width="1434" alt="Schermata 2022-03-01 alle 18 43 23" src="https://user-images.githubusercontent.com/99751208/156220910-987d3808-aa61-4883-a115-238f3bbbfdbd.png">
+
+
 ###                                    DOCUMENTAZIONE:open_book:
 
 ###                                    AUTORI DEL PROGETTO:it::student:
