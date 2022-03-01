@@ -61,7 +61,7 @@ IDE (Ambiente di Sviluppo Integrato) ovvero un software il quale ci ha permesso 
 
 <img width="1434" alt="Schermata 2022-03-01 alle 18 43 23" src="https://user-images.githubusercontent.com/99751208/156220910-987d3808-aa61-4883-a115-238f3bbbfdbd.png">
 
-#### Fase 2: Dowload egit e utilizzo di Springinitializr
+#### Fase 2: Dowload egit e utilizzo di Spring Initializr.
 
 
 
