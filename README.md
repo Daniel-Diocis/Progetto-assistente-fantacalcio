@@ -55,11 +55,11 @@ Each player inserted has its own deployability index ranging from 0 to 99. This 
 Se sei arrivato fin qui a leggere significa proprio che sei un fanta-allenatore accanito che ha solo la vittoria in testa, bene! 
 In questa sezione del progetto io e il mio amico Daniel abbiamo inserito passo passo tutto quello che c'è da fare per inziare a preparare questo progetto che abbiamo in mente.
 
-#### Fase 1
-Come prima cosa da fare bisogna scaricare eclipse, ide che abbiamo usato per la programmazione dell'app,(ti lascio qui il link per scaricarlo se vuoi :wink: 
-[Link Download Eclipse](https://www.eclipse.org/downloads/))
+#### Fase 1: Download ambiente di sviluppo.
+Come prima cosa da fare bisogna scaricare eclipse (ti lascio qui il link per scaricarlo se vuoi :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)),
+ide che abbiamo usato per la nascita della nostra app.
 
-!<img width="1434" alt="Schermata 2022-03-01 alle 18 43 23" src="https://user-images.githubusercontent.com/99751208/156220910-987d3808-aa61-4883-a115-238f3bbbfdbd.png">
+<img width="1434" alt="Schermata 2022-03-01 alle 18 43 23" src="https://user-images.githubusercontent.com/99751208/156220910-987d3808-aa61-4883-a115-238f3bbbfdbd.png">
 
 
 ###                                    DOCUMENTAZIONE:open_book:
