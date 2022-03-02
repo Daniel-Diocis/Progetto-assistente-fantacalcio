@@ -55,11 +55,16 @@ Each player inserted has its own deployability index ranging from 0 to 99. This 
 Se sei arrivato fin qui a leggere significa proprio che sei un fanta-allenatore accanito che ha solo la vittoria in testa, bene! 
 In questa sezione del progetto io e il mio amico Daniel abbiamo inserito passo passo tutto quello che c'è da fare per inziare a preparare questo progetto che abbiamo in mente.
 
-#### Fase 1: Download ambiente di sviluppo.
-Come prima cosa da fare bisogna scaricare eclipse (ti lascio qui il link per scaricarlo se vuoi :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)),
-IDE (Ambiente di Sviluppo Integrato) ovvero un software il quale ci ha permesso di realizzare la nostra applicazione.
+#### Fase 1: Scelta e download ambiente di sviluppo.
+Ovviamente io e Daniel siamo partiti da un ambiente di sviluppo, o IDE, ovvero un software il quale ci ha permesso di realizzare la nostra applicazione, che ci ha detto il professore da utilizzare per il progetto, ma tu che leggi puoi usarne un altro se vuoi. Noi abbiamo usato Eclipse e lo abbiamo scaricato da internet (ti lascio qui il link per scaricarlo se vuoi usarlo anche tu :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)). Ora che l'ambiente è pronto abbiamo scaricato E-Git dal marketplace di Eclipse per far si che possiamo controllare e nel caso aggiustare il nostro progetto anche da eclipse stesso. Sempre dal marketplace bisogna anche scaricare Spring Tools|4 che ci porterà così alla seconda fase del progetto.
 
-<img width="1434" alt="Schermata 2022-03-01 alle 18 43 23" src="https://user-images.githubusercontent.com/99751208/156220910-987d3808-aa61-4883-a115-238f3bbbfdbd.png">
+
+
+
+
+
+
+
 
 #### Fase 2: Dowload egit e utilizzo di Spring Initializr.
 
