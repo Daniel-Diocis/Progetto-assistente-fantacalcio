@@ -60,16 +60,6 @@ Ovviamente io e Daniel siamo partiti da un ambiente di sviluppo, o IDE, ovvero u
 
 
 
-
-
-
-
-
-
-#### Fase 2: Dowload egit e utilizzo di Spring Initializr.
-
-
-
 ###                                    DOCUMENTAZIONE:open_book:
 
 ###                                    AUTORI DEL PROGETTO:it::student:
