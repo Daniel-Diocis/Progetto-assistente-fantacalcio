@@ -25,7 +25,11 @@ Ecco riferendomi a queste domande più frequenti, io e il mio compagno, anche lu
   
 </div>
 
-Fantasy football is a virtual game based on football, in which you can put yourself in the shoes of a fantasy coach and create the strongest squad by buying players, belonging to reality through an auction, using fantasy credits, progressing in the league by obtaining points thanks to the plays of such players as for example assists, goals.Now I don't know if you who are reading play fantasy football or would like to start, but surely the questions I read more often or sometimes I myself are: Is there a way than to deploy the right formation before the start of the day without making a mistake? Do I always insert all the players who allow me to have more points at the end or not? coach like me, Daniel, we want to create a sort of Fanta-Assistant that helps every fanta-lover before every day of the fanta-football in always choosing well form, formation and football players from sc hierare in every single role so that you can become the strongest of all!
+Fantasy football is a virtual game based on football, in which you can put yourself in the shoes of a fantasy coach and create the strongest squad by buying players, belonging to reality through an auction, using fantasy credits, progressing in the league by obtaining points thanks to the plays of such players as for example assists, goals. For some years now a great interest has arisen in this virtual game, now I don't know if you who are reading games of fantasy football or would like to start, but surely the questions I find most often, or sometimes I ask myself, are the following:
+- Is there a way to deploy the right line-up before the start of the day without making a mistake?
+- Do I always insert all the players who allow me to have the most points at the end or not?
+
+Here, referring to these most frequently asked questions, my partner and I, also a fantasy-coach like me, Daniel, want to create a sort of Fantasy-Assistant that helps every fantasy-lover before each day of fantasy football in always choosing well module, formation and players to be deployed in every single role so that you can become the strongest of all!
   
 ###                                  CONTENUTI PROGETTO:open_file_folder::it:
 - [DESCRIZIONE DEL PROGETTO:it:](#itdescrizione-del-progettoit)
@@ -63,6 +67,10 @@ Come introdotto nella fase precedente, dopo aver scaricato i tools per Spring Bo
 <img width="1265" alt="Schermata 2022-03-02 alle 18 56 02" src="https://user-images.githubusercontent.com/99751208/156421034-2e32d994-c6a9-457f-9883-91fa92968543.png">
 
  - Queste le dependencies che ci ha fatto aggiungere il prof prima di generare il progetto maven.
+ 
+ 
+
+
 
 
 
