@@ -68,8 +68,9 @@ Come introdotto nella fase precedente, dopo aver scaricato i tools per Spring Bo
 
  - Queste le dependencies che ci ha fatto aggiungere il prof prima di generare il progetto maven.
  
- 
+Una volta importato il progetto Maven zip, il prof ci ha consigliato, per vedere se tutto era andato a buon, di farlo partire come una Spring Boot App e vedere se nella console c'era la dicitura "Tomcat started on port(s):8080", in quanto significava che se era presente tale scrittura tutto era andato a buon fine e che quindi scrivendo localhost:8080 il framework su internet dava una risposta.(Come plus abbiamo anche cambiato la porta scrivendo nell'Application Properties del progetto server.port:8081 per vedere se anche con un'altra porta andasse bene).
 
+### Fase 3:
 
 
 
