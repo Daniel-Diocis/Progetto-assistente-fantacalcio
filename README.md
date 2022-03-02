@@ -57,6 +57,10 @@ In questa sezione del progetto io e il mio amico Daniel abbiamo inserito passo p
 
 #### Fase 1: Scelta e download ambiente di sviluppo.
 Ovviamente io e Daniel siamo partiti da un ambiente di sviluppo, o IDE, ovvero un software il quale ci ha permesso di realizzare la nostra applicazione, che ci ha detto il professore da utilizzare per il progetto, ma tu che leggi puoi usarne un altro se vuoi. Noi abbiamo usato Eclipse e lo abbiamo scaricato da internet (ti lascio qui il link per scaricarlo se vuoi usarlo anche tu :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)). Ora che l'ambiente è pronto abbiamo scaricato E-Git dal marketplace di Eclipse per far si che possiamo controllare e nel caso aggiustare il nostro progetto anche da eclipse stesso. Sempre dal marketplace bisogna anche scaricare Spring Tools|4 che ci porterà così alla seconda fase del progetto.
+#### Fase 2: Spring Tools|4 e Spring Initializr.
+Come introdotto nella fase precedente, dopo aver scaricato i tools per Spring Boot,abbiamo utlizzato Spring Initializr, pvvero un framework utilizzato per creare delle applicazioni basate sui framework di Java Spring, per questo abbiamo scaricato in precedenza i tools, utilizzati specialmente per creare dei microservizi e utlizzarli come abbiamo fatto noi in questo caso per un progetto.
+
+
 
 
 
