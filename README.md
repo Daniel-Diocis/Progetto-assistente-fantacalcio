@@ -60,7 +60,9 @@ Ovviamente io e Daniel siamo partiti da un ambiente di sviluppo, o IDE, ovvero u
 #### Fase 2: Spring Tools|4 e Spring Initializr.
 Come introdotto nella fase precedente, dopo aver scaricato i tools per Spring Boot,abbiamo utlizzato Spring Initializr, ovvero un framework utilizzato per creare delle applicazioni basate sui framework di Java Spring (per questo abbiamo scaricato in precedenza i tools) utilizzati specialmente per creare dei microservizi e utlizzarli come abbiamo fatto noi in questo caso per il nostro progetto. In questo modo da Spring Initializr abbiamo ottenuto un progetto Maven zip che abbiamo decompresso e poi importate su Eclipse cosi da avere il nostro IDE con il framework dove far nascere la nostra applicazione.
 
+<img width="1265" alt="Schermata 2022-03-02 alle 18 56 02" src="https://user-images.githubusercontent.com/99751208/156421034-2e32d994-c6a9-457f-9883-91fa92968543.png">
 
+ - Queste le dependencies che ci ha fatto aggiungere il prof prima di generare il progetto maven.
 
 
 
