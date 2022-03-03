@@ -77,9 +77,9 @@ Dopo aver fatto i passi iniziali noi abbiamo cominciato a suddividere il nostro 
 <img width="291" alt="Schermata 2022-03-03 alle 18 04 02" src="https://user-images.githubusercontent.com/99751208/156614587-e2f80c63-2f21-4527-8b0b-a0276f5d1a6a.png"> 
 
 Abbiamo diviso, senza toccare il package creato in automatico da maven, il nostro Assistente fantacalcio in 3 package fondamentali:
-- Package del Service --> il quale serve per gestire i nostri servizi
-- Package del Model -->
-- Package del Controlle --> il quale è usato per contenere le rotte del progetto e ci permette di ottenere delle risposta a ciò che richiediamo
+- Package del Service -> il quale serve per gestire i nostri servizi
+- Package del Model ->
+- Package del Controlle -> il quale è usato per contenere le rotte del progetto e ci permette di ottenere delle risposta a ciò che richiediamo
 
 
 
