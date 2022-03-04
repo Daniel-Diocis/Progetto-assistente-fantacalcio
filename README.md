@@ -70,7 +70,7 @@ Come introdotto nella fase precedente, dopo aver scaricato i tools per Spring Bo
  
 Una volta importato il progetto Maven zip, il prof ci ha consigliato, per vedere se tutto era andato a buon, di farlo partire come una Spring Boot App e vedere se nella console c'era la dicitura "Tomcat started on port(s):8080", in quanto significava che se era presente tale scrittura tutto era andato a buon fine e che quindi scrivendo localhost:8080 il framework su internet dava una risposta.(Come plus abbiamo anche cambiato la porta scrivendo nell'Application Properties del progetto server.port:8081 per vedere se anche con un'altra porta andasse bene).
 
-### Fase 3: Inizio vero e proprio del Progetto
+#### Fase 3: Inizio vero e proprio del Progetto
 Dopo aver fatto i passi iniziali noi abbiamo cominciato a suddividere il nostro progetto su eclipse in package e classi cosi da avere un organizzazione ben precisa di ciò che ci serve e che dovevamo utilizzare per la realizzazione del nostro lavoro.
 
 
@@ -79,10 +79,16 @@ Dopo aver fatto i passi iniziali noi abbiamo cominciato a suddividere il nostro 
 Abbiamo diviso, senza toccare il package creato in automatico da maven, il nostro Assistente fantacalcio in 3 package fondamentali:
 - Package del Service -> Il quale,con i suoi sottopacchetti che inseriremo noi a seconda di quanti ce ne servono, serve per gestire i nostri servizi.
 - Package del Model -> I membri di questo pacchetto e dei suoi relativi sottopacchetti sono destinati all'uso nella modellazione del linguaggio.
-- Package del Controlle -> Il quale è usato, lui insieme a tutti i pacchetti che inseriamo al suo interno, per contenere le rotte del progetto e ci permette di ottenere delle risposta a ciò che richiediamo.
+- Package del Controller -> Il quale è usato, lui insieme a tutti i pacchetti che inseriamo al suo interno, per contenere le rotte del progetto e ci permette di ottenere delle risposta a ciò che richiediamo.
 
+#### Fase 4: Struttura e suddivisione del progetto
+Prima di cominciare a fare un progetto bisogna avere le idee ben precise di come farlo.Noi abbiamo deciso di strutturarlo nei tre package riportati in precedenza ma ovviamente non bastano solo quelli! Innanzitutto prima di tutto dobbiamo creare tutte i package utili che ci servono per creare una Fantalega nel quale poi il nostro Fanta Assistente ci potrà aiutare dandoci dei consigli. All'interno infatti dei package iniziali abbiamo inserito:
 
-
+Package | Classi | A cosa servono?
+-- | :--: | :--:
+Model | Campionato-Classifica-Formazione-Giocatore-Giornata-GiornataVitaReale-Partita-FantaAllenatore-FantaSquadra-Storico-Voto| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
+Service |  | Tutti i package che troverete all'interno di esso servono per l'interfaccia che l'utente,una volta che verrà aprta la webapp trovera di fronte a esso.
+Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 
 
