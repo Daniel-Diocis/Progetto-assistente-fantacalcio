@@ -32,14 +32,14 @@ Fantasy football is a virtual game based on football, in which you can put yours
 Here, referring to these most frequently asked questions, my partner and I, also a fantasy-coach like me, Daniel, want to create a sort of Fantasy-Assistant that helps every fantasy-lover before each day of fantasy football in always choosing well module, formation and players to be deployed in every single role so that you can become the strongest of all!
   
 ###                                  CONTENUTI PROGETTO:open_file_folder::it:
-- [DESCRIZIONE DEL PROGETTO:it:](#itdescrizione-del-progettoit)
-- [DESCRIZIONE DEL PROGETTO:england:](#englanddescription-of-the-projectengland)
+- [DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:](#itdescrizione-del-progettoit)
+- [DESCRIPTION AND REGULATION OF THE PROJECT:england:](#englanddescription-of-the-projectengland)
 - [CONFIGURAZIONE:key:](#configurazionekey)
 - [DOCUMENTAZIONE:open_book:](#documentazioneopen_book)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
 
 
-###                                :it:DESCRIZIONE DEL PROGETTO:it:  
+###                                :it:DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:  
 L'utente attraverso un menù dell'applicazione avrà la possibilità di:
 -  Chiedere chi è meglio schierare tra, per esempio,due giocatori confrontando,attraverso l'analisi delle loro fantamedie nelle ultime partite, il loro rendimento;
 -  L'utente prima inseirà il modulo scelto secondo lui e poi l'assistente avrà il compito di modificarlo facendo vedere all'allenatore quale sia meglio;
@@ -47,7 +47,8 @@ L'utente attraverso un menù dell'applicazione avrà la possibilità di:
 
 Ogni giocatore inserito ha un suo indice di schierabilità che va da 0 a 99. Questo indice prima riportato va in base a un algoritmo(da definire) che dipende dal ruolo del giocatore (se si mette a confronto dell'assistente un difensore con una fantamedia di 7, nelle ultime 5 giornate, e un centrocampista con la stessa media, è ovvio che l'assistente ti consiglierà di mettere il difensore). Ovviamente, sempre riguardo all'esempio precedente, l'assistente non vedrà solo il voto ma anche se, per esempio, ha giocato titolare o da subentrato o se ha giocato con squadre meno forti della sua secondo gli standard del campionato. Tutti questi dati verranno presi da [Statistiche Fantacalcio](https://www.fantacalcio.it/statistiche-serie-a).
 
-###                                 :england:DESCRIPTION OF THE PROJECT:england:
+
+###                                 :england:DESCRIPTION AND REGULATION OF THE PROJECT:england:
 Through an application menu, the user will have the possibility to:
 - Ask who is better to line up between, for example, two players by comparing, through the analysis of their fantamedies in the last games, their performance;
 - The user will first insert the module chosen according to him and then the assistant will have the task of modifying it by showing the coach which is better;
