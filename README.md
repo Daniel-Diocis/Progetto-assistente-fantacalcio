@@ -32,8 +32,8 @@ Fantasy football is a virtual game based on football, in which you can put yours
 Here, referring to these most frequently asked questions, my partner and I, also a fantasy-coach like me, Daniel, want to create a sort of Fantasy-Assistant that helps every fantasy-lover before each day of fantasy football in always choosing well module, formation and players to be deployed in every single role so that you can become the strongest of all!
   
 ###                                  CONTENUTI PROGETTO:open_file_folder::it:
-- [DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:](#itdescrizione-del-progettoit)
-- [DESCRIPTION AND REGULATION OF THE PROJECT:england:](#englanddescription-of-the-projectengland)
+- [DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:](#itdescrizione-e-regolamento-del-progettoit)
+- [DESCRIPTION AND REGULATION OF THE PROJECT:england:](#englanddescription-and-regulation-of-the-projectengland)
 - [CONFIGURAZIONE:key:](#configurazionekey)
 - [DOCUMENTAZIONE:open_book:](#documentazioneopen_book)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
