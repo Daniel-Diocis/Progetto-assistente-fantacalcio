@@ -94,7 +94,7 @@ Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che 
 
 
 ###                                    DOCUMENTAZIONE:open_book:
-Come già detto in precedenza per le statistiche del fantacalcio siamo andati su [Fantasy Football Statistics](https://www.fantacalcio.it/statistiche-serie-a) e abbiamo fatto un file su github con una tabella che facesse vedere tutti i calciatori con  nome ,fantamedia e partite giocate [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche-Fantacalcio-2021:2022.pdf).
+Come già detto in precedenza per le statistiche del fantacalcio siamo andati su [Fantasy Football Statistics](https://www.fantacalcio.it/statistiche-serie-a) e abbiamo scaricato un file su github con una tabella che facesse vedere tutti i calciatori con  nome,squadra di appartenenza del calciatore in questione, partite giocate, mediavoto e mediafantavoto, rigori parati(se portiere) rigori calciati e sbagliati(se giocatore di movimento, assist, ammonizioni, espulsioni e autogoal  [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche-Fantacalcio-2021:2022.pdf).
 
 ###                                    AUTORI DEL PROGETTO:it::student:
 Nome | Matricola | Contributo
