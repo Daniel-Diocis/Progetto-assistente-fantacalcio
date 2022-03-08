@@ -37,7 +37,7 @@ Here, referring to these most frequently asked questions, my partner and I, also
 - [CONFIGURAZIONE:key:](#configurazionekey)
 - [DOCUMENTAZIONE:open_book:](#documentazioneopen_book)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
-
+- [LICENSE:speech_balloon:](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/LICENSE)
 
 ###                                :it:DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:  
 L'utente attraverso un menù dell'applicazione avrà la possibilità di:
