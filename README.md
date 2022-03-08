@@ -94,7 +94,7 @@ Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che 
 
 
 ###                                    DOCUMENTAZIONE:open_book:
-
+Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il file che ho riportato sopra in formato pdf, situato
 
 ###                                    AUTORI DEL PROGETTO:it::student:
 Nome | Matricola | Contributo
