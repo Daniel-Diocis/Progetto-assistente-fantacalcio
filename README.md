@@ -91,6 +91,8 @@ Model | Campionato-Classifica-Formazione-Giocatore-Giornata-GiornataVitaReale-Pa
 Service | Database | Tutti i package che troverete all'interno di esso servono per l'interfaccia che l'utente,una volta che verrà aprta la webapp trovera di fronte a esso.
 Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
+#### Fase 5: Creazione Prime Classi del Model
+Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare forma al nostro progetto.
 
 
 ###                                    DOCUMENTAZIONE:open_book:
