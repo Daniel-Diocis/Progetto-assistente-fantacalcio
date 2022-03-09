@@ -94,13 +94,13 @@ Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che 
 
 
 ###                                    DOCUMENTAZIONE:open_book:
-Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il file che ho riportato sopra in formato pdf, situato [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.pdf), che contiene una tabella con nome, squadra di appartenenza del calciatore, mediavoto,mediafantavoto,rigori parati(se portiere il calciatore in questione), rigori sbagliati e segnati (se il giocatore in questione è di movimento), ammonizioni, espulsioni e assist. Inoltre abbiamo anche inserito il file in un altro, il quale lo abbiamo messo [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.xlsx), formato che abbiamo utilizzato poi per creare il file json per usarlo su eclipse per la costruzione del nostro progetto sul IDE, eclipse appunto.
+Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il file che ho riportato sopra in formato pdf, situato [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.pdf), che contiene una tabella con nome, squadra di appartenenza del calciatore, mediavoto,mediafantavoto,rigori parati(se portiere il calciatore in questione), rigori sbagliati e segnati (se il giocatore in questione è di movimento), ammonizioni, espulsioni e assist. Inoltre abbiamo anche inserito il file in un altro formato, il quale lo abbiamo messo [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.xlsx),che abbiamo utilizzato poi per creare il file json per usarlo su eclipse per la costruzione del nostro progetto sull'IDE, eclipse appunto.
 
 ###                                    AUTORI DEL PROGETTO:it::student:
 Nome | Matricola | Contributo
 -- | :--: | :--:
-[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme,
-[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 
+[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme, Sviluppo programma su eclipse
+[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | | Sviluppo del programma su eclipse 
 
 
 
