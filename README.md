@@ -100,7 +100,7 @@ Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciator
 Nome | Matricola | Contributo
 -- | :--: | :--:
 [Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme, Sviluppo programma su eclipse
-[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | | Sviluppo del programma su eclipse 
+[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 1090161 | Sviluppo del programma su eclipse 
 
 
 
