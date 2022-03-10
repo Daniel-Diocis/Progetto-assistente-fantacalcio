@@ -126,7 +126,7 @@ Dopo aver terminato la creazione del nostro package Model, siamo passati al cost
 
 
 #### Fase 7: Creazione Classi del Service
-
+Come ultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per creare un interfaccia grafica del nostro progetto. 
 
 
 
