@@ -102,10 +102,10 @@ Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il 
   partiteGiocate,golSegnatiSquadra,golSubitiSquadra,mediaGolSegnatiSquadra e mediaGolSubitiSquadra con sempre poi definiti i vari setter e getter per modificarla;
 
 #### Fase 6: Creazione Classi del Controller
+Dopo aver terminato la creazione del nostro package Model, siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio come per esempio voti e statistiche.
 
 
-
-
+- Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Controller appunto, ovvero:
 
 
 
