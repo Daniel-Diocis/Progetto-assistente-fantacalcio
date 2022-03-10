@@ -94,6 +94,12 @@ Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che 
 #### Fase 5: Creazione Prime Classi del Model
 Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare forma al nostro progetto.
 
+<img width="285" alt="Schermata 2022-03-10 alle 18 03 34" src="https://user-images.githubusercontent.com/99751208/157716278-7f7b2cfd-b779-4a11-922f-421ebeea15b8.png">
+
+- Qui come potete vedere abbiamo fatto le prime due classi per il programma ovvero "Giocatore" e "Squadra":
+  - Per quanto riguarda la prima abbiamo creato una classe publica e l'abbiamo chiamata appunto Giocatore, inserendone all'interno:  Id,ruolo,cognome,squadra,partiteGiocate,mediaVoto,mediaFantavoto,golfatti,golSubiti,rigoriParati,rigoriCalciati,rigoriSegnati,rigoriSbagliati,assit,ammonizioni,espulsioni e autogol creando gli appositi getter e setter cosi da poter modificare queste variabili a nostro piacimento.
+
+
 
 ###                                    DOCUMENTAZIONE:open_book:
 Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il file che ho riportato sopra in formato pdf, situato [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.pdf), che contiene una tabella con nome, squadra di appartenenza del calciatore, mediavoto,mediafantavoto,rigori parati(se portiere il calciatore in questione), rigori sbagliati e segnati (se il giocatore in questione è di movimento), ammonizioni, espulsioni e assist. Inoltre abbiamo anche inserito il file in un altro formato, il quale lo abbiamo messo [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.xlsx),che abbiamo utilizzato poi per creare il file json per usarlo su eclipse per la costruzione del nostro progetto sull'IDE, eclipse appunto.
