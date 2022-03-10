@@ -128,8 +128,14 @@ Dopo aver terminato la creazione del nostro package Model, siamo passati al cost
 #### Fase 7: Creazione Classi del Service
 Come ultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per creare un interfaccia grafica del nostro progetto. 
 
+<img width="256" alt="Schermata 2022-03-10 alle 18 48 27" src="https://user-images.githubusercontent.com/99751208/157724224-a14cbdc3-648e-462f-9240-b0110eb91c0b.png">
 
-
+- Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Service appunto, ovvero:
+  - La prima che abbiamo creato è la classe pubblica FormazioneService
+  - FormazioneServiceImpl
+  - AssistenteFantacalcioApplication
+  -
+  
 
 
 
