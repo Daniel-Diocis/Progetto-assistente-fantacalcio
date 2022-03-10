@@ -91,14 +91,14 @@ Model | Campionato-Classifica-Formazione-Giocatore-Giornata-GiornataVitaReale-Pa
 Service | Database | Tutti i package che troverete all'interno di esso servono per l'interfaccia che l'utente,una volta che verrà aprta la webapp trovera di fronte a esso.
 Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
-#### Fase 5: Creazione Prime Classi del Model
+#### Fase 5: Creazione Classi del Model
 Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare forma al nostro progetto.
 
 <img width="285" alt="Schermata 2022-03-10 alle 18 03 34" src="https://user-images.githubusercontent.com/99751208/157716278-7f7b2cfd-b779-4a11-922f-421ebeea15b8.png">
 
-- Qui come potete vedere abbiamo fatto le prime due classi per il programma ovvero "Giocatore" e "Squadra":
-  - Per quanto riguarda la prima abbiamo creato una classe publica e l'abbiamo chiamata appunto Giocatore, inserendone all'interno:  Id,ruolo,cognome,squadra,partiteGiocate,mediaVoto,mediaFantavoto,golFatti,golSubiti,rigoriParati,rigoriCalciati,rigoriSegnati,rigoriSbagliati,assit,ammonizioni,espulsioni e autogol creando gli appositi getter e setter cosi da poter modificare queste variabili a nostro piacimento;
-  - In riferimento alla seconda, anch'essa una classe pubblica e chiamandola Squadra , abbiamo inserito al suo interno:
+- Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Model appunto, ovvero:
+  - Per quanto riguarda la prima abbiamo creato una classe publica e l'abbiamo chiamata appunto "Giocatore", inserendone all'interno:  Id,ruolo,cognome,squadra,partiteGiocate,mediaVoto,mediaFantavoto,golFatti,golSubiti,rigoriParati,rigoriCalciati,rigoriSegnati,rigoriSbagliati,assit,ammonizioni,espulsioni e autogol creando gli appositi getter e setter cosi da poter modificare queste variabili a nostro piacimento;
+  - In riferimento alla seconda, anch'essa una classe pubblica e chiamandola "Squadra" , abbiamo inserito al suo interno:
   partiteGiocate,golSegnatiSquadra,golSubitiSquadra,mediaGolSegnatiSquadra e mediaGolSubitiSquadra con sempre poi definiti i vari setter e getter per modificarla;
 
 
