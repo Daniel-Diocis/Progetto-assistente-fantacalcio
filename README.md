@@ -100,13 +100,24 @@ Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il 
   - Per quanto riguarda la prima abbiamo creato una classe publica e l'abbiamo chiamata appunto "Giocatore", inserendone all'interno:  Id,ruolo,cognome,squadra,partiteGiocate,mediaVoto,mediaFantavoto,golFatti,golSubiti,rigoriParati,rigoriCalciati,rigoriSegnati,rigoriSbagliati,assit,ammonizioni,espulsioni e autogol creando gli appositi getter e setter cosi da poter modificare queste variabili a nostro piacimento;
   - In riferimento alla seconda, anch'essa una classe pubblica e chiamandola "Squadra" , abbiamo inserito al suo interno:
   partiteGiocate,golSegnatiSquadra,golSubitiSquadra,mediaGolSegnatiSquadra e mediaGolSubitiSquadra con sempre poi definiti i vari setter e getter per modificarla;
+  -
+  -
+  -
+  -
+  -
+  
 
 #### Fase 6: Creazione Classi del Controller
 Dopo aver terminato la creazione del nostro package Model, siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio come per esempio voti e statistiche.
 
+<img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
 - Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Controller appunto, ovvero:
-
+  - La prima che abbiamo creato è la classe pubblica Formazione;
+  -
+  -
+  -
+  
 
 
 
