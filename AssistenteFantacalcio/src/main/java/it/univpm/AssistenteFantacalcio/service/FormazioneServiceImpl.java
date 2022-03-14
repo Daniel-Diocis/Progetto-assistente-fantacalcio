@@ -19,15 +19,15 @@ public class FormazioneServiceImpl implements FormazioneService {
 	
 	public FormazioneServiceImpl() {
 		// loading data...
-		Giocatore honey = new Giocatore();
-		honey.setId((int)counter.incrementAndGet());
-		honey.setCognome("Honey");
-		giocatoreRepo.put(honey.getId(), honey);
+		Giocatore zaniolo = new Giocatore();
+		zaniolo.setId((int)counter.incrementAndGet());
+		zaniolo.setNome("Zaniolo");
+		giocatoreRepo.put(zaniolo.getId(), zaniolo);
 		
-		Giocatore almond = new Giocatore();
-		almond.setId((int)counter.incrementAndGet());
-		almond.setCognome("Almond");
-		giocatoreRepo.put(almond.getId(), almond);
+		Giocatore dybala = new Giocatore();
+		dybala.setId((int)counter.incrementAndGet());
+		dybala.setNome("Dybala");
+		giocatoreRepo.put(dybala.getId(), dybala);
 	}
 	
 	@Override

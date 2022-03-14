@@ -9,7 +9,7 @@ public class AssistenteFantacalcioController {
 	
 	@RequestMapping("/assistente")
 	public @ResponseBody String assistente() {
-		return "Ciao utente";
+		return "Ciao utente, scrivi /giocatori per inserire la tua formazione";
 	}
 
 }

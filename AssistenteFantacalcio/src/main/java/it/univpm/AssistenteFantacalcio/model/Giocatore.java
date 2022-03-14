@@ -1,124 +1,163 @@
 package it.univpm.AssistenteFantacalcio.model;
 
+import java.util.Vector;
+
 public class Giocatore {
-	private int id;
-	private char ruolo;
-	private String cognome;
-	private String squadra;
-	private int partiteGiocate;
-	private double mediaVoto;
-	private double mediaFantavoto;
-	private int golFatti;
-	private int golSubiti;
-	private int rigoriParati;
-	private int rigoriCalciati;
-	private int rigoriSegnati;
-	private int rigoriSbagliati;
-	private int assist;
-	private int ammonizioni;
-	private int espulsioni;
-	private int autogol;
+	private int Id;
+	private String R;
+	private String Nome;
+	private String Squadra;
+	private Vector<Stats> vector = new Vector<Stats>();
 	
+	// Costruttore dell'oggetto.
+	public Giocatore() {
+		super();
+	}
+	
+	/** Costruttore dell'oggetto.
+	   @param Id: Id del giocatore
+     */
+	public Giocatore(int Id) {
+		this.Id=Id;
+		this.R=null;
+		this.Nome=null;
+		this.Squadra=null;
+	}
+	
+	/** Costruttore dell'oggetto.
+       @param Nome: Nome del giocatore
+     */
+	public Giocatore(String Nome) {
+		this.Id=0;
+		this.R=null;
+		this.Nome=Nome;
+		this.Squadra=null;
+	}
+	
+	/** Costruttore dell'oggetto.
+     * @param Nome: Nome del giocatore
+     * @param Squadra: Squadra del giocatore
+     */
+	public Giocatore(String Nome, String Squadra) {
+		this.Id=0;
+		this.R=null;
+		this.Nome=Nome;
+		this.Squadra=Squadra;
+	}
+
+	/** Costruttore completo.
+     * @param Nome: Nome del giocatore
+     * @param Squadra: Squadra del giocaotre
+     * @param Id: Id del giocatore
+     * @param R: Ruolo del giocatore
+     */
+	public Giocatore(int Id, String R, String Nome, String Squadra) {
+		this.Id = Id;
+		this.R = R;
+		this.Nome = Nome;
+		this.Squadra = Squadra;
+	}
+
+	
+	/**
+     * Metodo che restituisce l'Id del giocatore.
+     * @return Id
+     */
 	public int getId() {
-		return id;
+		return Id;
 	}
-	public void setId(int id) {
-		this.id = id;
+	
+	/**
+     * Metodo che setta l'Id del giocatore.
+     * @param int Id.
+     */
+	public void setId(int Id) {
+		this.Id = Id;
 	}
-	public char getRuolo() {
-		return ruolo;
+
+	/**
+     * Metodo che restituisce il ruolo del giocatore.
+     * @return R
+     */
+	public String getR() {
+		return R;
 	}
-	public void setRuolo(char ruolo) {
-		this.ruolo = ruolo;
+	
+	/**
+     * Metodo che setta il ruolo del giocatore.
+     * @param String R.
+     */
+	public void setR(String R) {
+		this.R = R;
 	}
-	public String getCognome() {
-		return cognome;
+	
+
+	/**
+     * Metodo che restituisce il nome del giocatore.
+     * @return Nome.
+     */
+	public String getNome() {
+		return Nome;
 	}
-	public void setCognome(String cognome) {
-		this.cognome = cognome;
+	
+	/**
+     * Metodo che setta il nome del giocatore.
+     * @param String Nome.
+     */
+	public void setNome(String Nome) {
+		this.Nome = Nome;
 	}
+	
+	/**
+     * Metodo che restituisce la squadra del giocatore.
+     * @return Squadra
+     */
 	public String getSquadra() {
-		return squadra;
+		return Squadra;
 	}
-	public void setSquadra(String squadra) {
-		this.squadra = squadra;
+	
+	/**
+     * Metodo che setta la squadra del giocatore.
+     * @param String Squadra.
+     */
+	public void setSquadra(String Squadra) {
+		this.Squadra = Squadra;
 	}
-	public int getPartiteGiocate() {
-		return partiteGiocate;
+	
+	/**
+     * Metodo che restituisce il vettore di statistiche del giocatore.
+     * @return vector.
+     */
+	public Vector<Stats> getVector() {
+		return vector;
 	}
-	public void setPartiteGiocate(int partiteGiocate) {
-		this.partiteGiocate = partiteGiocate;
+
+	/**
+     * Metodo che setta il vettore di statistiche del giocatore.
+     * @param vettore di stats.
+     */
+	public void setVector(Vector<Stats> vector) {
+		this.vector = vector;
 	}
-	public double getMediaVoto() {
-		return mediaVoto;
+	
+	/**
+     * Metodo che scrive il vettore come una stringa.
+     * @return String toReturn che rappresenta le stats del giocatore.
+     */
+	public String toStringVector() {
+		String toReturn="";
+		for (int i=0; i<vector.size(); i++)
+			toReturn += vector.get(i).toString();
+		return toReturn;
 	}
-	public void setMediaVoto(double mediaVoto) {
-		this.mediaVoto = mediaVoto;
-	}
-	public double getMediaFantavoto() {
-		return mediaFantavoto;
-	}
-	public void setMediaFantavoto(double mediaFantavoto) {
-		this.mediaFantavoto = mediaFantavoto;
-	}
-	public int getGolFatti() {
-		return golFatti;
-	}
-	public void setGolFatti(int golFatti) {
-		this.golFatti = golFatti;
-	}
-	public int getGolSubiti() {
-		return golSubiti;
-	}
-	public void setGolSubiti(int golSubiti) {
-		this.golSubiti = golSubiti;
-	}
-	public int getRigoriParati() {
-		return rigoriParati;
-	}
-	public void setRigoriParati(int rigoriParati) {
-		this.rigoriParati = rigoriParati;
-	}
-	public int getRigoriCalciati() {
-		return rigoriCalciati;
-	}
-	public void setRigoriCalciati(int rigoriCalciati) {
-		this.rigoriCalciati = rigoriCalciati;
-	}
-	public int getRigoriSegnati() {
-		return rigoriSegnati;
-	}
-	public void setRigoriSegnati(int rigoriSegnati) {
-		this.rigoriSegnati = rigoriSegnati;
-	}
-	public int getRigoriSbagliati() {
-		return rigoriSbagliati;
-	}
-	public void setRigoriSbagliati(int rigoriSbagliati) {
-		this.rigoriSbagliati = rigoriSbagliati;
-	}
-	public int getAssist() {
-		return assist;
-	}
-	public void setAssist(int assist) {
-		this.assist = assist;
-	}
-	public int getAmmonizioni() {
-		return ammonizioni;
-	}
-	public void setAmmonizioni(int ammonizioni) {
-		this.ammonizioni = ammonizioni;
-	}
-	public int getEspulsioni() {
-		return espulsioni;
-	}
-	public void setEspulsioni(int espulsioni) {
-		this.espulsioni = espulsioni;
-	}
-	public int getAutogol() {
-		return autogol;
-	}
-	public void setAutogol(int autogol) {
-		this.autogol = autogol;
+
+	/**
+	 * Override del metodo toString.
+	 * @return String che rappresenta il giocatore.
+	 */
+	@Override
+	public String toString() {
+		return "Id=" + Id + ", R=" + R + ", Nome=" + Nome + ", Squadra=" + Squadra
+				+ ", StatsArray=" + toStringVector() + "";
 	}
 }

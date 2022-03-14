@@ -1,12 +1,32 @@
 package it.univpm.AssistenteFantacalcio.model;
 
 public class Squadra {
+	private String nomeSquadra;
 	private int partiteGiocate;
 	private int golSegnatiSquadra;
 	private int golSubitiSquadra;
 	private double mediaGolSegnatiSquadra;
 	private double mediaGolSubitiSquadra;
 	
+	public Squadra() {
+		super();
+	}
+	
+	public Squadra(String nomeSquadra) {
+		this.nomeSquadra= nomeSquadra;
+		this.partiteGiocate=0;
+		this.golSegnatiSquadra=0;
+		this.golSubitiSquadra=0;
+		this.mediaGolSegnatiSquadra=0;
+		this.mediaGolSubitiSquadra=0;
+	}
+	
+	public String getNomeSquadra() {
+		return nomeSquadra;
+	}
+	public void setNomeSquadra(String nomeSquadra) {
+		this.nomeSquadra = nomeSquadra;
+	}
 	public int getPartiteGiocate() {
 		return partiteGiocate;
 	}
