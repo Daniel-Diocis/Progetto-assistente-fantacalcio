@@ -160,4 +160,9 @@ public class Giocatore {
 		return "Id=" + Id + ", R=" + R + ", Nome=" + Nome + ", Squadra=" + Squadra
 				+ ", StatsArray=" + toStringVector() + "";
 	}
+
+	public static Object get(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
