@@ -1,10 +1,14 @@
 package it.univpm.AssistenteFantacalcio.model;
 
 public class Stats {
+
+
+
 	private int Pg;
 	private double Mf;
 	private int golFatti;
 	private int golSubiti;
+	private GolSegnati golSegnati;
 	private int assist;
 	private int ammonizioni;
 	private int espulsioni;
@@ -17,6 +21,7 @@ public class Stats {
 		this.Mf = 0;
 		this.golFatti = 0;
 		this.golSubiti = 0;
+		this.golSegnati = null;
 		this.assist = 0;
 		this.ammonizioni = 0;
 		this.espulsioni = 0;
@@ -134,6 +139,15 @@ public class Stats {
      */
 	public void setgolSubiti(int golSubiti) {
 		this.golSubiti = golSubiti;
+	}
+	
+	public GolSegnati getGolSegnati() {
+		return golSegnati;
+	}
+
+
+	public void setGolSegnati(GolSegnati golSegnati) {
+		this.golSegnati = golSegnati;
 	}
 	
 	/**

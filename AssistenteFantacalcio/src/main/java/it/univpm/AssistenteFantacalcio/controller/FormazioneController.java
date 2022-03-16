@@ -21,21 +21,21 @@ public class FormazioneController {
 	public ResponseEntity<Object> getGiocatore() {
 		return new ResponseEntity<>(formazioneService.getGiocatori(), HttpStatus.OK);
 	}
-	@RequestMapping(value= "/giocatori/{id}", method = RequestMethod.PUT)
+/*	@RequestMapping(value= "/giocatori/{id}", method = RequestMethod.PUT)
 	public ResponseEntity<Object>
 		updateProduct(@PathVariable("id") int id, @RequestBody Giocatore giocatore) {
 		
 		formazioneService.updateGiocatore(id, giocatore);
-		return new ResponseEntity<>("Product is updated succesfully", HttpStatus.OK);
+		return new ResponseEntity<>("Player is updated succesfully", HttpStatus.OK);
 	}
 	@RequestMapping(value = "/giocatori/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<Object> delete(@PathVariable("id") Integer id) {
 		formazioneService.deleteGiocatore(id);
-		return new ResponseEntity<>("Product is deleted succesfully", HttpStatus.OK);
+		return new ResponseEntity<>("Player is deleted succesfully", HttpStatus.OK);
 	}
 	@RequestMapping(value = "/giocatori", method = RequestMethod.POST)
 	public ResponseEntity<Object> createGiocatore(@RequestBody Giocatore giocatore) {
 		formazioneService.createGiocatore(giocatore);
-		return new ResponseEntity<>("Product is created succesfully", HttpStatus.CREATED);
-	}
+		return new ResponseEntity<>("Player is created succesfully", HttpStatus.CREATED);
+	}*/
 }

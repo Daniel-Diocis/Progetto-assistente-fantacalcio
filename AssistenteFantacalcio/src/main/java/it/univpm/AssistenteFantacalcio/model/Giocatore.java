@@ -3,11 +3,13 @@ package it.univpm.AssistenteFantacalcio.model;
 import java.util.Vector;
 
 public class Giocatore {
+
+
 	private int Id;
 	private String R;
 	private String Nome;
 	private String Squadra;
-	private Vector<Stats> vector = new Vector<Stats>();
+	private Stats stats;
 	
 	// Costruttore dell'oggetto.
 	public Giocatore() {
@@ -123,33 +125,25 @@ public class Giocatore {
 	public void setSquadra(String Squadra) {
 		this.Squadra = Squadra;
 	}
-	
-	/**
-     * Metodo che restituisce il vettore di statistiche del giocatore.
-     * @return vector.
-     */
-	public Vector<Stats> getVector() {
-		return vector;
+	public Stats getStats() {
+		return stats;
 	}
 
-	/**
-     * Metodo che setta il vettore di statistiche del giocatore.
-     * @param vettore di stats.
-     */
-	public void setVector(Vector<Stats> vector) {
-		this.vector = vector;
+	public void setStats(Stats stats) {
+		this.stats = stats;
 	}
-	
+
+
 	/**
      * Metodo che scrive il vettore come una stringa.
      * @return String toReturn che rappresenta le stats del giocatore.
      */
-	public String toStringVector() {
+/*	public String toStringVector() {
 		String toReturn="";
 		for (int i=0; i<vector.size(); i++)
 			toReturn += vector.get(i).toString();
 		return toReturn;
-	}
+	}*/
 
 	/**
 	 * Override del metodo toString.
@@ -158,11 +152,6 @@ public class Giocatore {
 	@Override
 	public String toString() {
 		return "Id=" + Id + ", R=" + R + ", Nome=" + Nome + ", Squadra=" + Squadra
-				+ ", StatsArray=" + toStringVector() + "";
-	}
-
-	public static Object get(String string) {
-		// TODO Auto-generated method stub
-		return null;
+				+ ", StatsArray=" + stats + "";
 	}
 }
