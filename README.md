@@ -36,9 +36,9 @@ Here, referring to these most frequently asked questions, my partner and I, also
 - [DESCRIPTION AND REGULATION OF THE PROJECT:england:](#englanddescription-and-regulation-of-the-projectengland)
 - [CONFIGURAZIONE:key:](#configurazionekey)
 - [DOCUMENTAZIONE:open_book:](#documentazioneopen_book)
+- [TEST APPLICAZIONE:gear:](#test-applicazionegear)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
 - [LICENSE:speech_balloon:](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/LICENSE)
-- [TEST APPLICAZIONE:gear:](#test-applicazionegear)
 
 ###                                :it:DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:  
 L'utente attraverso un menù dell'applicazione avrà la possibilità di:
