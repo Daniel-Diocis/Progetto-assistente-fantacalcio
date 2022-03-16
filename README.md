@@ -38,6 +38,7 @@ Here, referring to these most frequently asked questions, my partner and I, also
 - [DOCUMENTAZIONE:open_book:](#documentazioneopen_book)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
 - [LICENSE:speech_balloon:](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/LICENSE)
+- [TEST APPLICAZIONE:gear:](#test-applicazionegear)
 
 ###                                :it:DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:  
 L'utente attraverso un menù dell'applicazione avrà la possibilità di:
@@ -158,6 +159,11 @@ Come passo finale abbiamo costruito il main del nostro progetto, ovvero il packa
 ###                                    DOCUMENTAZIONE:open_book:
 - Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il   file che ho riportato sopra in formato pdf, situato [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.pdf), che contiene una tabella con nome, squadra di appartenenza del calciatore, mediavoto,mediafantavoto,rigori parati(se portiere il calciatore in questione), rigori sbagliati e segnati (se il giocatore in questione è di movimento), ammonizioni, espulsioni e assist. Inoltre abbiamo anche inserito il file in un altro formato, il quale lo abbiamo messo [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.xlsx),che abbiamo utilizzato poi per creare il file json per usarlo su eclipse per la costruzione del nostro progetto sull'IDE, eclipse appunto.
 - Inoltre abbiamo inserito tutta la documentazione Javadoc utile per la navigazione all'internio del codice sorgente dell'app più facilmente e velocemente [qui]().
+
+
+
+###                                    TEST APPLICAZIONE:gear:
+Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per vedere se tutto cio che avevamo scritto nel codice sorgente funzionava e girava nel modo giusto.
 
 
 ###                                    AUTORI DEL PROGETTO:it::student:
