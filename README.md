@@ -126,7 +126,7 @@ Dopo aver terminato la creazione del nostro package Model, siamo passati al cost
 
 
 #### Fase 7: Creazione Classi del Service
-Come ultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(un'interfaccia per il nostro progetto). 
+Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(un'interfaccia per il nostro progetto). 
 
 <img width="256" alt="Schermata 2022-03-10 alle 18 48 27" src="https://user-images.githubusercontent.com/99751208/157724224-a14cbdc3-648e-462f-9240-b0110eb91c0b.png">
 
@@ -136,9 +136,13 @@ Come ultimo passo nello sviluppo del nostro software abbiamo creato tutte le cla
   - AssistenteFantacalcioApplication
   -
   
+  
+  Inoltre abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com), per creare un'interfaccia grafica che si visualizza quando si avvia l'applicazione.
+  
 
 
-
+#### Fase 8: Creazione del Main.
+Come passo finale abbiamo costruito il main del nostro progetto, ovvero il package più importante del progetto che riorganizza e mette in pratica tutto quello che abbiamo inserito nei pacchetti precedenti.La logica che abbiamo utilizzato è quella di aver richiamato prima la libreria Json per la lettura dei nostri dati e poi con un menù e un input da tastiera,l'utente,puo scegliere tra 3 azioni da chiedre al nostro Assistente-Fantacalcio che lo aiuterà nello strutturare la formazione perfetta e vincere ogni giornata di Fantacalcio.
 
 
 
@@ -157,8 +161,8 @@ Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciator
 ###                                    AUTORI DEL PROGETTO:it::student:
 Nome | Matricola | Contributo
 -- | :--: | :--:
-[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme, Sviluppo programma su eclipse
-[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 1090161 | Sviluppo del programma su eclipse 
+[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme,Interfaccia con Visual Sudio Code, Sviluppo Software programma,Javadoc,Test Applicazione
+[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 1090161 | File Readme,Interfaccia con Visual Sudio Code, Sviluppo Software programma,Javadoc,Test Applicazione
 
 
 
