@@ -92,7 +92,7 @@ Service | Database | Tutti i package che troverete all'interno di esso servono p
 Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
-Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare forma al nostro progetto.
+Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.
 
 <img width="285" alt="Schermata 2022-03-10 alle 18 03 34" src="https://user-images.githubusercontent.com/99751208/157716278-7f7b2cfd-b779-4a11-922f-421ebeea15b8.png">
 
@@ -108,7 +108,7 @@ Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il 
   
 
 #### Fase 6: Creazione Classi del Controller
-Dopo aver terminato la creazione del nostro package Model, siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio come per esempio voti e statistiche.
+Dopo aver terminato la creazione del nostro package Model, siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in praticaa modificando allo stesso tempo lo stato degli altri due componenti.
 
 <img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
@@ -126,7 +126,7 @@ Dopo aver terminato la creazione del nostro package Model, siamo passati al cost
 
 
 #### Fase 7: Creazione Classi del Service
-Come ultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per creare un interfaccia grafica del nostro progetto. 
+Come ultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(un'interfaccia per il nostro progetto). 
 
 <img width="256" alt="Schermata 2022-03-10 alle 18 48 27" src="https://user-images.githubusercontent.com/99751208/157724224-a14cbdc3-648e-462f-9240-b0110eb91c0b.png">
 
