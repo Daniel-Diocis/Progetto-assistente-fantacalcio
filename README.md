@@ -113,7 +113,7 @@ Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le 
 
 
 #### Fase 8: Creazione del Main.
-Come passo finale abbiamo costruito il main del nostro progetto, ovvero il package più importante del progetto che riorganizza e mette in pratica tutto quello che abbiamo inserito nei pacchetti precedenti.La logica che abbiamo utilizzato è quella di aver richiamato prima la libreria Json per la lettura dei nostri dati e poi con un menù e un input da tastiera,l'utente,puo scegliere tra 3 azioni da chiedre al nostro Assistente-Fantacalcio che lo aiuterà nello strutturare la formazione perfetta e vincere ogni giornata di Fantacalcio.
+In questa classe controller abbiamo creato il menù che da all'utente la possibilità di fare cioe che abbiamo descritto nella sezione interfaccia situata più in basso.
 
 
 
@@ -133,7 +133,10 @@ Come passo finale abbiamo costruito il main del nostro progetto, ovvero il packa
 
 
 ###                                    TEST APPLICAZIONE:gear:
-Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per vedere se tutto cio che avevamo scritto nel codice sorgente funzionava e girava nel modo giusto.
+Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per verificare che tutto il progetto girasse correttamente.
+a)
+
+b)
 
 ###                                    ESEMPIO INTERFACCIA:computer:
 
