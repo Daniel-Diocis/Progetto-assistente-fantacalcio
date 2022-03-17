@@ -2,12 +2,6 @@ package it.univpm.AssistenteFantacalcio.model;
 
 import java.util.Vector;
 
-/**
- @author Enrico Maria Flati
- @author Daniel Diocis Calero
- */
-
-
 public class Giocatore {
 
 	private int Id;
@@ -56,7 +50,8 @@ public class Giocatore {
 	 * @param Id: Id del giocatore
      * @param R: Ruolo del giocatore
      * @param Nome: Nome del giocatore
-     * @param Squadra: Squadra del giocaotre
+     * @param Squadra: Squadra del giocatore
+     
      */
 	public Giocatore(int Id, String Ruolo, String Nome, String Squadra) {
 		this.Id = Id;
