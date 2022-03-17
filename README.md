@@ -111,17 +111,17 @@ In questa classe controller abbiamo creato il menù che stampa a schermoe permet
 
 
 ###                                    TEST APPLICAZIONE:gear:
-Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per verificare che tutto il progetto girasse correttamente.
+Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per verificare che tutto il progetto girasse correttamente. Test fatti attraverso postman.
 
-a)Esempio /database
+a)Qui potete vedre come noi abbiamo eseguito su postman,tramite la Get, il comando /database con il quale abbiamo ottenuto la lista di giocatori con tutte le varie statistiche appartenenti al file Json che avevamo caricato in precedenza.
 
 https://user-images.githubusercontent.com/99751208/158898499-855ec8ec-3883-472a-8712-5b8257b341e8.mp4
 
-b)Esempio /giocatori
+b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche, abbiamo lanciato il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
 
 https://user-images.githubusercontent.com/99751208/158898999-ec1b9ddb-4c43-470b-b373-4b533f27cd43.mp4
 
-c)Esempio /delete
+c)Infine dopo aver svolto i primi due comandi, se per esempio avevamo richiesto i dati di un giocatore che in realtà non volevamo(l'esempio nel video è stato fatto con Vlhaovic), ora possiamo lanciare il comando /delete per togliere dalla lista il giocatore che non volevamo vedere più.
 
 https://user-images.githubusercontent.com/99751208/158899514-e8176710-e514-44c8-9d8d-b7f34cfaecdd.mp4
 
