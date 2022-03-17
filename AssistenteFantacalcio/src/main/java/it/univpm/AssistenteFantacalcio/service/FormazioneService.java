@@ -11,7 +11,7 @@ import it.univpm.AssistenteFantacalcio.model.Giocatore;
 public interface FormazioneService {
 	public abstract void aggiungiGiocatore(Giocatore giocatore) throws IOException, ParseException ;
 /*	public abstract void updateGiocatore(int id, Giocatore giocatore);*/
-	public abstract void deleteGiocatore(Giocatore giocatore);
+	public abstract void deleteGiocatore(String Nome);
 	public abstract Collection<Giocatore> getGiocatori();
 	public abstract Collection<Giocatore> getDatabase();
 }

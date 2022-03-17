@@ -23,6 +23,10 @@ import it.univpm.AssistenteFantacalcio.model.MediaGolFatti;
 import it.univpm.AssistenteFantacalcio.model.MediaGolSubiti;
 import it.univpm.AssistenteFantacalcio.model.Stats;
 
+/**La calsse FormazioneServiceImpl contiene l'implementazione dell'interfaccia FormazioneService.
+ * Contiene i metodi che vengono utilizzati dal controller.
+ */
+
 @Service
 public class FormazioneServiceImpl implements FormazioneService {
 	private static Map<String, Giocatore> giocatoreRepo = new HashMap<>();
@@ -48,11 +52,11 @@ public class FormazioneServiceImpl implements FormazioneService {
 			Long l = (Long) giocatoreJson.get("Id");
 			giocatoreTemp.setId(l.intValue());
 			giocatoreTemp.setNome((String) giocatoreJson.get("Nome"));
-			giocatoreTemp.setR((String) giocatoreJson.get("R"));
+			giocatoreTemp.setRuolo((String) giocatoreJson.get("R"));
 			giocatoreTemp.setSquadra((String) giocatoreJson.get("Squadra"));
 			Stats statsTemp = new Stats();
 			statsTemp.setpartiteGiocate(((Long) giocatoreJson.get("Pg")).intValue());
-//			statsTemp.setMf((double) giocatoreJson.get("Mf"));
+			statsTemp.setmediaFantavoto(((Number) giocatoreJson.get("Mf")).doubleValue());
 			statsTemp.setgolFattiNonSuRigore(((Long) giocatoreJson.get("Gf")).intValue());
 			statsTemp.setgolSubiti(((Long) giocatoreJson.get("Gs")).intValue());
 			statsTemp.setRigoriParati(((Long) giocatoreJson.get("Rp")).intValue());
@@ -80,6 +84,12 @@ public class FormazioneServiceImpl implements FormazioneService {
 		
 	}
 	
+	/**
+	 * Questo metodo va a prendere da un file json tutte le statistiche del giocatore il cui nome 
+	 * coincide con lo stesso immesso dall'utente utilizzando aggiungiGiocatore
+	 * @param il nome del giocatore che si vuole aggiungere.
+	 * @param giocatoreRepo: dove si vanno a immettere tutti i dati del giocatore
+	 */
 	@Override
 	public void aggiungiGiocatore(Giocatore giocatore) throws IOException, ParseException {
 		if(giocatoreRepo.containsKey(giocatore.getNome())) {
@@ -110,11 +120,11 @@ public class FormazioneServiceImpl implements FormazioneService {
 				Long l = (Long) giocatore1Json.get("Id");
 				giocatoreTemp.setId(l.intValue());
 				giocatoreTemp.setNome((String) giocatore1Json.get("Nome"));
-				giocatoreTemp.setR((String) giocatore1Json.get("R"));
+				giocatoreTemp.setRuolo((String) giocatore1Json.get("R"));
 				giocatoreTemp.setSquadra((String) giocatore1Json.get("Squadra"));
 				Stats statsTemp = new Stats();
 				statsTemp.setpartiteGiocate(((Long) giocatore1Json.get("Pg")).intValue());
-				statsTemp.setMf(((Number) giocatore1Json.get("Mf")).doubleValue());
+				statsTemp.setmediaFantavoto(((Number) giocatore1Json.get("Mf")).doubleValue());
 				statsTemp.setgolFattiNonSuRigore(((Long) giocatore1Json.get("Gf")).intValue());
 				statsTemp.setgolSubiti(((Long) giocatore1Json.get("Gs")).intValue());
 				statsTemp.setRigoriParati(((Long) giocatore1Json.get("Rp")).intValue());
@@ -160,18 +170,19 @@ public class FormazioneServiceImpl implements FormazioneService {
 	public Collection<Giocatore> getGiocatori() {
 		return giocatoreRepo.values();
 	}
-	/*
+	
+	/**
+	 * Questo metodo va a eliminare il giocatore da giocatoreRepo usando il Nome 
+	 * dato in delete per riconoscerlo nella lista di giocatori.
+	 * @param il nome del giocatore che si vuole eliminare.
+	 * @param giocatoreRepo: da qua si va a rimuovere il giocatore con il nome immesso
+	 */
 	@Override
-	public void deleteGiocatore(int id) {
-		giocatoreRepo.remove(id);
+	public void deleteGiocatore(String Nome) {
+		giocatoreRepo.remove(Nome);
 		// TODO Auto-generated method stub
 		
-	}*/
-
-	@Override
-	public void deleteGiocatore(Giocatore giocatore) {
-		giocatoreRepo.remove(giocatore);
-		// TODO Auto-generated method stub
 	}
+
 
 }

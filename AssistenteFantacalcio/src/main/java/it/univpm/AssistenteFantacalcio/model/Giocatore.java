@@ -4,9 +4,8 @@ import java.util.Vector;
 
 public class Giocatore {
 
-
 	private int Id;
-	private String R;
+	private String Ruolo;
 	private String Nome;
 	private String Squadra;
 	private Stats stats;
@@ -21,7 +20,7 @@ public class Giocatore {
      */
 	public Giocatore(int Id) {
 		this.Id=Id;
-		this.R=null;
+		this.Ruolo=null;
 		this.Nome=null;
 		this.Squadra=null;
 	}
@@ -31,7 +30,7 @@ public class Giocatore {
      */
 	public Giocatore(String Nome) {
 		this.Id=0;
-		this.R=null;
+		this.Ruolo=null;
 		this.Nome=Nome;
 		this.Squadra=null;
 	}
@@ -42,20 +41,21 @@ public class Giocatore {
      */
 	public Giocatore(String Nome, String Squadra) {
 		this.Id=0;
-		this.R=null;
+		this.Ruolo=null;
 		this.Nome=Nome;
 		this.Squadra=Squadra;
 	}
 
 	/** Costruttore completo.
+	 * @param Id: Id del giocatore
+     * @param R: Ruolo del giocatore
      * @param Nome: Nome del giocatore
      * @param Squadra: Squadra del giocaotre
-     * @param Id: Id del giocatore
-     * @param R: Ruolo del giocatore
+     
      */
-	public Giocatore(int Id, String R, String Nome, String Squadra) {
+	public Giocatore(int Id, String Ruolo, String Nome, String Squadra) {
 		this.Id = Id;
-		this.R = R;
+		this.Ruolo = Ruolo;
 		this.Nome = Nome;
 		this.Squadra = Squadra;
 	}
@@ -81,16 +81,16 @@ public class Giocatore {
      * Metodo che restituisce il ruolo del giocatore.
      * @return R
      */
-	public String getR() {
-		return R;
+	public String getRuolo() {
+		return Ruolo;
 	}
 	
 	/**
      * Metodo che setta il ruolo del giocatore.
      * @param String R.
      */
-	public void setR(String R) {
-		this.R = R;
+	public void setRuolo(String Ruolo) {
+		this.Ruolo = Ruolo;
 	}
 	
 
@@ -125,33 +125,30 @@ public class Giocatore {
 	public void setSquadra(String Squadra) {
 		this.Squadra = Squadra;
 	}
+	
+	/**
+     * Metodo che restituisce le statistiche del giocatore.
+     * @return stats
+     */
 	public Stats getStats() {
 		return stats;
 	}
 
+	/**
+     * Metodo che setta le statistiche del giocatore.
+     * @param Stats stats.
+     */
 	public void setStats(Stats stats) {
 		this.stats = stats;
 	}
 
-
-	/**
-     * Metodo che scrive il vettore come una stringa.
-     * @return String toReturn che rappresenta le stats del giocatore.
-     */
-/*	public String toStringVector() {
-		String toReturn="";
-		for (int i=0; i<vector.size(); i++)
-			toReturn += vector.get(i).toString();
-		return toReturn;
-	}*/
-
 	/**
 	 * Override del metodo toString.
-	 * @return String che rappresenta il giocatore.
+	 * @return String che rappresenta i dati del giocatore.
 	 */
 	@Override
 	public String toString() {
-		return "Id=" + Id + ", R=" + R + ", Nome=" + Nome + ", Squadra=" + Squadra
-				+ ", StatsArray=" + stats + "";
+		return "Id=" + Id + ", Ruolo=" + Ruolo + ", Nome=" + Nome + ", Squadra=" + Squadra
+				+ ", Stats=" + stats + "";
 	}
 }

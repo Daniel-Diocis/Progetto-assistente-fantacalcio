@@ -35,9 +35,9 @@ public class FormazioneController {
 		formazioneService.updateGiocatore(id, giocatore);
 		return new ResponseEntity<>("Player is updated succesfully", HttpStatus.OK);
 	}*/
-	@RequestMapping(value = "/giocatori", method = RequestMethod.DELETE)
-	public ResponseEntity<Object> delete(@PathVariable Giocatore giocatore) {
-		formazioneService.deleteGiocatore(giocatore);
+	@RequestMapping(value = "/giocatori/{Nome}", method = RequestMethod.DELETE)
+	public ResponseEntity<Object> delete(@PathVariable ("Nome") String Nome) throws IOException, ParseException{
+		formazioneService.deleteGiocatore(Nome);
 		return new ResponseEntity<>("Player is deleted succesfully", HttpStatus.OK);
 	}
 	@RequestMapping(value = "/giocatori", method = RequestMethod.POST)
