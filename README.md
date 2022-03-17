@@ -121,7 +121,9 @@ b)Esempio /giocatori
 
 https://user-images.githubusercontent.com/99751208/158898999-ec1b9ddb-4c43-470b-b373-4b533f27cd43.mp4
 
-c)
+c)Esempio /delete
+
+https://user-images.githubusercontent.com/99751208/158899514-e8176710-e514-44c8-9d8d-b7f34cfaecdd.mp4
 
 
 ###                                    ESEMPIO INTERFACCIA:computer:
