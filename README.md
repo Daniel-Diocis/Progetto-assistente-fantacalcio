@@ -39,7 +39,7 @@ Here, referring to these most frequently asked questions, my partner and I, also
 - [TEST APPLICAZIONE:gear:](#test-applicazionegear)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
 - [LICENSE:speech_balloon:](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/LICENSE)
-- [ESEMPIO INTERFACCIA:computer:](#esempio-interfaccia:computer:)
+- [ESEMPIO INTERFACCIA:computer:](#esempio-interfacciacomputer)
 
 ###                                :it:DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:  
 L'utente attraverso un menù dell'applicazione avrà la possibilità di:
@@ -167,6 +167,11 @@ Come passo finale abbiamo costruito il main del nostro progetto, ovvero il packa
 Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per vedere se tutto cio che avevamo scritto nel codice sorgente funzionava e girava nel modo giusto.
 
 ###                                    ESEMPIO INTERFACCIA:computer:
+
+<img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
+
+Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.
+(E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto. 
 
 
 
