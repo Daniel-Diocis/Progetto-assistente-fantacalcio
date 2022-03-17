@@ -39,6 +39,7 @@ Here, referring to these most frequently asked questions, my partner and I, also
 - [TEST APPLICAZIONE:gear:](#test-applicazionegear)
 - [AUTORI:it::student:](#autori-del-progettoitstudent)
 - [LICENSE:speech_balloon:](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/LICENSE)
+- [ESEMPIO INTERFACCIA:computer:](#esempio-interfaccia:computer:)
 
 ###                                :it:DESCRIZIONE E REGOLAMENTO DEL PROGETTO:it:  
 L'utente attraverso un menù dell'applicazione avrà la possibilità di:
@@ -164,6 +165,9 @@ Come passo finale abbiamo costruito il main del nostro progetto, ovvero il packa
 
 ###                                    TEST APPLICAZIONE:gear:
 Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per vedere se tutto cio che avevamo scritto nel codice sorgente funzionava e girava nel modo giusto.
+
+###                                    ESEMPIO INTERFACCIA:computer:
+
 
 
 ###                                    AUTORI DEL PROGETTO:it::student:
