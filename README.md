@@ -104,15 +104,9 @@ In questa classe controller abbiamo creato il menù che da all'utente la possibi
 
 
 
-
-
-
-
-
-
 ###                                    DOCUMENTAZIONE:open_book:
 - Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il   file che ho riportato sopra in formato pdf, situato [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.pdf), che contiene una tabella con nome, squadra di appartenenza del calciatore, mediavoto,mediafantavoto,rigori parati(se portiere il calciatore in questione), rigori sbagliati e segnati (se il giocatore in questione è di movimento), ammonizioni, espulsioni e assist. Inoltre abbiamo anche inserito il file in un altro formato, il quale lo abbiamo messo [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.xlsx),che abbiamo utilizzato poi per creare il file json, [inserito qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/jsonfiles) per usarlo su eclipse per la costruzione del nostro progetto sull'IDE, eclipse appunto.
-- Inoltre abbiamo inserito tutta la documentazione Javadoc utile per la navigazione all'internio del codice sorgente dell'app più facilmente e velocemente [qui]().
+- Inoltre abbiamo inserito tutta la documentazione Javadoc utile per migliorare la comprensione del codice sorgente.
 
 
 
