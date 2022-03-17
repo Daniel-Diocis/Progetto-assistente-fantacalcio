@@ -169,8 +169,8 @@ Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per 
 ###                                    AUTORI DEL PROGETTO:it::student:
 Nome | Matricola | Contributo
 -- | :--: | :--:
-[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme,Interfaccia con Visual Sudio Code, Sviluppo Software programma,Javadoc,Test Applicazione
-[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 1090161 | File Readme,Interfaccia con Visual Sudio Code, Sviluppo Software programma,Javadoc,Test Applicazione
+[Flati Enrico Maria](https://github.com/EnricoMariaFlati) | 1099114 | File Readme,Esempio Interfaccia con Visual Sudio Code, Sviluppo Software programma,Javadoc,Test Applicazione
+[Diocis Calero Daniel](https://github.com/Daniel-Diocis) | 1090161 | File Readme,Esempio Interfaccia con Visual Sudio Code, Sviluppo Software programma,Javadoc,Test Applicazione
 
 
 
