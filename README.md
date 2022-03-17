@@ -95,7 +95,7 @@ Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le 
 <img width="194" alt="Schermata 2022-03-17 alle 18 43 25" src="https://user-images.githubusercontent.com/99751208/158863243-51d836b9-59d0-4a20-8b34-6f1dcf05ea16.png">
 
 
-#### Fase 8: Creazione del Main.
+#### Fase 8: Creazione del Menù .
 In questa classe controller abbiamo creato il menù che da all'utente la possibilità di fare cioe che abbiamo descritto nella sezione ESEMPIO INTERFACCIA situata più in basso.
 
 <img width="586" alt="Schermata 2022-03-17 alle 18 52 20" src="https://user-images.githubusercontent.com/99751208/158864937-fc6d81b7-ffca-4ab1-9a77-3ee96f9a5dc2.png">
@@ -122,7 +122,7 @@ b)
 
 Abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com).
 Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.(il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
-(E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto. 
+(E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto.) 
 
 
 
