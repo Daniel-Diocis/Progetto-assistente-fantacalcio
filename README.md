@@ -90,7 +90,7 @@ Prima di cominciare a fare un progetto bisogna avere le idee ben precise di come
 Package | Classi | A cosa servono?
 -- | :--: | :--:
 Model | Giocatore,GolsegnatiInTotale,MediaAssist,MediaGolFatti,MediaGolSubiti,Stats| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
-Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete all'interno di esso servono per l'interfaccia che l'utente,una volta che verrà aprta la webapp trovera di fronte a esso.
+Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete all'interno di esso servono per gestire i servizi dell app 
 Controller |AssistentefantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
@@ -98,15 +98,6 @@ Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il 
 
 <img width="285" alt="Schermata 2022-03-10 alle 18 03 34" src="https://user-images.githubusercontent.com/99751208/157716278-7f7b2cfd-b779-4a11-922f-421ebeea15b8.png">
 
-- Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Model appunto, ovvero:
-  - Per quanto riguarda la prima abbiamo creato una classe publica e l'abbiamo chiamata appunto "Giocatore", inserendone all'interno:  Id,ruolo,cognome,squadra,partiteGiocate,mediaVoto,mediaFantavoto,golFatti,golSubiti,rigoriParati,rigoriCalciati,rigoriSegnati,rigoriSbagliati,assit,ammonizioni,espulsioni e autogol creando gli appositi getter e setter cosi da poter modificare queste variabili a nostro piacimento;
-  - In riferimento alla seconda, anch'essa una classe pubblica e chiamandola "Squadra" , abbiamo inserito al suo interno:
-  partiteGiocate,golSegnatiSquadra,golSubitiSquadra,mediaGolSegnatiSquadra e mediaGolSubitiSquadra con sempre poi definiti i vari setter e getter per modificarla;
-  -
-  -
-  -
-  -
-  -
   
 
 #### Fase 6: Creazione Classi del Controller
@@ -114,33 +105,11 @@ Dopo aver terminato la creazione del nostro package Model, siamo passati al cost
 
 <img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
-- Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Controller appunto, ovvero:
-  - La prima che abbiamo creato è la classe pubblica Formazione;
-  -
-  -
-  -
-  
-
-
-
-
-
-
 
 #### Fase 7: Creazione Classi del Service
 Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(un'interfaccia per il nostro progetto). 
 
 <img width="256" alt="Schermata 2022-03-10 alle 18 48 27" src="https://user-images.githubusercontent.com/99751208/157724224-a14cbdc3-648e-462f-9240-b0110eb91c0b.png">
-
-- Qui come potete vedere abbiamo fatto un elenco delle classi appartenenti al package Service appunto, ovvero:
-  - La prima che abbiamo creato è la classe pubblica FormazioneService
-  - FormazioneServiceImpl
-  - AssistenteFantacalcioApplication
-  -
-  
-  
-  Inoltre abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com), per creare un'interfaccia grafica che si visualizza quando si avvia l'applicazione.
-  
 
 
 #### Fase 8: Creazione del Main.
@@ -170,6 +139,7 @@ Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per 
 
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
+Abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com).
 Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.(il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
 (E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto. 
 
