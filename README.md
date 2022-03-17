@@ -77,20 +77,21 @@ Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete
 Controller |AssistentefantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
-Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.(per arrivare subito al model del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/model).
+Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.(per arrivare subito al model del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/model)).
 
 <img width="187" alt="Schermata 2022-03-17 alle 18 39 37" src="https://user-images.githubusercontent.com/99751208/158862554-011c3d71-d275-486a-b129-702bad567b34.png">
 
   
 
 #### Fase 6: Creazione Classi del Controller
-Dopo aver terminato la creazione del nostro package Model,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in praticaa modificando allo stesso tempo lo stato degli altri due componenti.
+Dopo aver terminato la creazione del nostro package Model,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in praticaa modificando allo stesso tempo lo stato degli altri due componenti.(per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/controller)).
 
 <img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
 
 #### Fase 7: Creazione Classi del Service
-Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(un'interfaccia per il nostro progetto). 
+Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(una sorta di interfaccia per il nostro progetto). 
+(Per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/service)).
 
 <img width="194" alt="Schermata 2022-03-17 alle 18 43 25" src="https://user-images.githubusercontent.com/99751208/158863243-51d836b9-59d0-4a20-8b34-6f1dcf05ea16.png">
 
