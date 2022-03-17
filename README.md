@@ -113,7 +113,9 @@ In questa classe controller abbiamo creato il menù che stampa a schermoe permet
 ###                                    TEST APPLICAZIONE:gear:
 Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per verificare che tutto il progetto girasse correttamente.
 
-a)
+a)Esempio Database
+
+https://user-images.githubusercontent.com/99751208/158898499-855ec8ec-3883-472a-8712-5b8257b341e8.mp4
 
 b)
 
