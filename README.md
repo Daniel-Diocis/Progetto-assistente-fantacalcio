@@ -113,8 +113,9 @@ Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le 
 
 
 #### Fase 8: Creazione del Main.
-In questa classe controller abbiamo creato il menù che da all'utente la possibilità di fare cioe che abbiamo descritto nella sezione interfaccia situata più in basso.
+In questa classe controller abbiamo creato il menù che da all'utente la possibilità di fare cioe che abbiamo descritto nella sezione ESEMPIO INTERFACCIA situata più in basso.
 
+<img width="586" alt="Schermata 2022-03-17 alle 18 52 20" src="https://user-images.githubusercontent.com/99751208/158864937-fc6d81b7-ffca-4ab1-9a77-3ee96f9a5dc2.png">
 
 
 
