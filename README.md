@@ -109,7 +109,7 @@ Dopo aver terminato la creazione del nostro package Model, siamo passati al cost
 #### Fase 7: Creazione Classi del Service
 Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(un'interfaccia per il nostro progetto). 
 
-<img width="256" alt="Schermata 2022-03-10 alle 18 48 27" src="https://user-images.githubusercontent.com/99751208/157724224-a14cbdc3-648e-462f-9240-b0110eb91c0b.png">
+<img width="194" alt="Schermata 2022-03-17 alle 18 43 25" src="https://user-images.githubusercontent.com/99751208/158863243-51d836b9-59d0-4a20-8b34-6f1dcf05ea16.png">
 
 
 #### Fase 8: Creazione del Main.
