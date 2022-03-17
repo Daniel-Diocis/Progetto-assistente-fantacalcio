@@ -89,9 +89,9 @@ Prima di cominciare a fare un progetto bisogna avere le idee ben precise di come
 
 Package | Classi | A cosa servono?
 -- | :--: | :--:
-Model | Campionato-Classifica-Formazione-Giocatore-Giornata-GiornataVitaReale-Partita-FantaAllenatore-FantaSquadra-Storico-Voto| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
-Service | Database | Tutti i package che troverete all'interno di esso servono per l'interfaccia che l'utente,una volta che verrà aprta la webapp trovera di fronte a esso.
-Controller | | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
+Model | Giocatore,GolsegnatiInTotale,MediaAssist,MediaGolFatti,MediaGolSubiti,Stats| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
+Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete all'interno di esso servono per l'interfaccia che l'utente,una volta che verrà aprta la webapp trovera di fronte a esso.
+Controller |AssistentefantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
 Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.
