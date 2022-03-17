@@ -122,8 +122,7 @@ b)
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
 Noi abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com).
-- Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare. Il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
-- [Qui](file:///Users/enricomariaflati/Downloads/Esempio-JSON-API-4/src/JavascriptTutorial.html) invece è come il file html si visualizza sul browser, con ovviamente tasti non collegati,i quali non svolgono alcuna funzione.
+- Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare. Il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html). Ovviamente i tasti che si vedono integrati nel build dell'html non sono collegati e perciò non svolgono alcuna funzione, in quanto non abbiamo collegato tale interfaccia ad Eclipse.
 - Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel delete di postman scrivendo /giocatori/GiocatorechesivuoleCancellare, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
 
 
