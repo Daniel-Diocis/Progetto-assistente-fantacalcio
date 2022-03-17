@@ -77,7 +77,7 @@ Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete
 Controller |AssistentefantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
-Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.
+Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.(per arrivare subito al model del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/model).
 
 <img width="187" alt="Schermata 2022-03-17 alle 18 39 37" src="https://user-images.githubusercontent.com/99751208/158862554-011c3d71-d275-486a-b129-702bad567b34.png">
 
