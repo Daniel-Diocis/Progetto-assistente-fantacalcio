@@ -96,7 +96,7 @@ Controller |AssistentefantacalcioController,FormazioneController | All'interno d
 #### Fase 5: Creazione Classi del Model
 Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.
 
-<img width="285" alt="Schermata 2022-03-10 alle 18 03 34" src="https://user-images.githubusercontent.com/99751208/157716278-7f7b2cfd-b779-4a11-922f-421ebeea15b8.png">
+<img width="187" alt="Schermata 2022-03-17 alle 18 39 37" src="https://user-images.githubusercontent.com/99751208/158862554-011c3d71-d275-486a-b129-702bad567b34.png">
 
   
 
