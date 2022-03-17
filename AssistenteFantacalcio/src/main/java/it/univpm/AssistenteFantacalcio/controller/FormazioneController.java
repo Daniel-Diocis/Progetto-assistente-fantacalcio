@@ -15,6 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 import it.univpm.AssistenteFantacalcio.model.Giocatore;
 import it.univpm.AssistenteFantacalcio.service.FormazioneService;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 @RestController
 public class FormazioneController {
 	@Autowired

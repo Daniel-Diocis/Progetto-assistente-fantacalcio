@@ -24,6 +24,12 @@ import it.univpm.AssistenteFantacalcio.model.MediaGolFatti;
 import it.univpm.AssistenteFantacalcio.model.MediaGolSubiti;
 import it.univpm.AssistenteFantacalcio.model.Stats;
 
+
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 /**La calsse FormazioneServiceImpl contiene l'implementazione dell'interfaccia FormazioneService.
  * Contiene i metodi che vengono utilizzati dal controller.
  */

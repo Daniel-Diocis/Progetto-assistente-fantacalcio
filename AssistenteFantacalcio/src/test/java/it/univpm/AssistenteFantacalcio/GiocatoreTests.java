@@ -1,5 +1,10 @@
 package it.univpm.AssistenteFantacalcio;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterEach;

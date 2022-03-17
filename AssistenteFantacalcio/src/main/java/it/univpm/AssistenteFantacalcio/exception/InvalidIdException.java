@@ -1,5 +1,10 @@
 package it.univpm.AssistenteFantacalcio.exception;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 public class InvalidIdException extends Exception {
 	public InvalidIdException() {
 		super();

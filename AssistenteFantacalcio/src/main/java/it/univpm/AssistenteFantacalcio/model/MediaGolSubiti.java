@@ -1,5 +1,10 @@
 package it.univpm.AssistenteFantacalcio.model;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 public class MediaGolSubiti {
 
 	private double mediaGolSubiti;

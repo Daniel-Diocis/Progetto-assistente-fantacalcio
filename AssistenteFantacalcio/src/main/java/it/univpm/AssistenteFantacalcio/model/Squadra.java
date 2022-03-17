@@ -1,5 +1,10 @@
 package it.univpm.AssistenteFantacalcio.model;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 public class Squadra {
 	private String nomeSquadra;
 	private int partiteGiocate;

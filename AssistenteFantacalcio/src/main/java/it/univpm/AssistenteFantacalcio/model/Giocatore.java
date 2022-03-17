@@ -5,6 +5,11 @@ import java.util.Vector;
 import it.univpm.AssistenteFantacalcio.exception.InvalidIdException;
 import it.univpm.AssistenteFantacalcio.exception.*;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 public class Giocatore {
 
 	private int Id;
