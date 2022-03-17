@@ -46,7 +46,7 @@ Se sei arrivato fin qui a leggere significa proprio che sei un fanta-allenatore 
 In questa sezione del progetto io e il mio amico Daniel abbiamo inserito passo passo tutto quello che c'è da fare per inziare a preparare questo progetto che abbiamo in mente.
 
 #### Fase 1: Scelta e download ambiente di sviluppo.
-Ovviamente io e Daniel siamo partiti da un ambiente di sviluppo, o IDE, ovvero un software il quale ci ha permesso di realizzare la nostra applicazione, che ci ha detto il professore di utilizzare, ma tu che leggi puoi usarne un altro se vuoi. Noi abbiamo usato Eclipse e lo abbiamo scaricato da internet (ti lascio qui il link per scaricarlo se vuoi usarlo anche tu :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)). Ora che l'ambiente è pronto abbiamo scaricato E-Git dal marketplace di Eclipse per far si che possiamo controllare e nel caso aggiustare il nostro progetto anche da eclipse stesso. Sempre dal marketplace bisogna anche scaricare Spring Tools|4 che ci porterà così alla seconda fase del progetto.
+Ovviamente noi siamo partiti da un ambiente di sviluppo, o IDE, ovvero un software il quale ci ha permesso di realizzare la nostra applicazione, che ci ha detto il professore di utilizzare, ma tu che leggi puoi usarne un altro se vuoi. Noi abbiamo usato Eclipse e lo abbiamo scaricato da internet (ti lascio qui il link per scaricarlo se vuoi usarlo anche tu :wink: [Link Download Eclipse](https://www.eclipse.org/downloads/)). Ora che l'ambiente è pronto abbiamo scaricato E-Git dal marketplace di Eclipse per far si che possiamo controllare e nel caso aggiustare il nostro progetto anche da eclipse stesso. Sempre dal marketplace bisogna anche scaricare Spring Tools|4 che ci porterà così alla seconda fase del progetto.
 #### Fase 2: Spring Tools|4 e Spring Initializr.
 Come introdotto nella fase precedente, dopo aver scaricato i tools per Spring Boot,abbiamo utlizzato Spring Initializr, ovvero un framework utilizzato per creare delle applicazioni basate sui framework di Java Spring (per questo abbiamo scaricato in precedenza i tools) utilizzati specialmente per creare dei microservizi e utlizzarli come abbiamo fatto noi in questo caso per il nostro progetto. In questo modo da Spring Initializr abbiamo ottenuto un progetto Maven zip che abbiamo decompresso e poi importate su Eclipse cosi da avere il nostro IDE con il framework dove far nascere la nostra applicazione.
 
@@ -77,14 +77,14 @@ Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete
 Controller |AssistentefantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
-Daniel e io siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.
+Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.
 
 <img width="187" alt="Schermata 2022-03-17 alle 18 39 37" src="https://user-images.githubusercontent.com/99751208/158862554-011c3d71-d275-486a-b129-702bad567b34.png">
 
   
 
 #### Fase 6: Creazione Classi del Controller
-Dopo aver terminato la creazione del nostro package Model, siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in praticaa modificando allo stesso tempo lo stato degli altri due componenti.
+Dopo aver terminato la creazione del nostro package Model,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in praticaa modificando allo stesso tempo lo stato degli altri due componenti.
 
 <img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
@@ -120,7 +120,7 @@ b)
 
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
-Abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com).
+Noi abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com).
 Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.(il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
 (E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto.) 
 
