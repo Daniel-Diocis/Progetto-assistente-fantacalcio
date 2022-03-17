@@ -170,7 +170,7 @@ Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per 
 
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
-Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.
+Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.(il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
 (E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto. 
 
 
