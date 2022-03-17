@@ -19,15 +19,23 @@ class GiocatoreTests {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		g = new Giocatore (125, "A", "VLAHOVIC", "Juventus");
+		g = new Giocatore (256, "A", "VLAHOVIC", "Juventus");
 	}
 
 	@AfterEach
 	void tearDown() throws Exception {
 	}
-
+	
 	@Test
 	void test() {
+		assertEquals(256, g.getId());
+		assertEquals("A", g.getRuolo());
+		assertEquals("VLAHOVIC", g.getNome());
+		assertEquals("Juventus", g.getSquadra());
+	}
+
+	@Test
+	void test1() {
 		assertThrows(InvalidIdException.class, ()->g.setId(-1));
 	}
 
