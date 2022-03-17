@@ -96,7 +96,7 @@ Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le 
 
 
 #### Fase 8: Creazione del Menù .
-In questa classe controller abbiamo creato il menù che da all'utente la possibilità di fare cioe che abbiamo descritto nella sezione [ESEMPIO INTERFACCIA ](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/README.md#esempio-interfacciacomputer).
+In questa classe controller abbiamo creato il menù che stampa a schermoe permette all'utente di fare cio che abbiamo descritto nella sezione [ESEMPIO INTERFACCIA ](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/README.md#esempio-interfacciacomputer).
 
 <img width="586" alt="Schermata 2022-03-17 alle 18 52 20" src="https://user-images.githubusercontent.com/99751208/158864937-fc6d81b7-ffca-4ab1-9a77-3ee96f9a5dc2.png">
 
@@ -112,6 +112,7 @@ In questa classe controller abbiamo creato il menù che da all'utente la possibi
 
 ###                                    TEST APPLICAZIONE:gear:
 Questa sezione l'abbiamo utilizzata per inserire dei test che abbiamo fatto per verificare che tutto il progetto girasse correttamente.
+
 a)
 
 b)
@@ -121,9 +122,9 @@ b)
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
 Noi abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com).
-Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare.(il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
-(E' possibile, nel delete di postman scrivendo /giocatori/"giocatorechesivuolecancellare", cancellare appunto il giocatore scelto.) 
-
+- Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare. Il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html)
+- [Qui](file:///Users/enricomariaflati/Downloads/Esempio-JSON-API-4/src/JavascriptTutorial.html) invece è come il file html si visualizza sul browser, con ovviamente tasti non collegati,i quali non svolgono alcuna funzione.
+- Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel delete di postman scrivendo /giocatori/GiocatorechesivuoleCancellare, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
 
 
 ###                                    AUTORI DEL PROGETTO:it::student:
