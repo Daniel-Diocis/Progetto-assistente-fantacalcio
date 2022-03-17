@@ -119,7 +119,7 @@ a)Qui potete vedre come noi abbiamo eseguito su postman,tramite la Get, il coman
 
 https://user-images.githubusercontent.com/99751208/158898499-855ec8ec-3883-472a-8712-5b8257b341e8.mp4
 
-b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche, abbiamo lanciato il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
+b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche (mi raccomando per creare scrivere per esempio {"nome":VLAHOVIC} senno da errore) mediante Post sempre di postman) abbiamo lanciato il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
 
 https://user-images.githubusercontent.com/99751208/158898999-ec1b9ddb-4c43-470b-b373-4b533f27cd43.mp4
 
