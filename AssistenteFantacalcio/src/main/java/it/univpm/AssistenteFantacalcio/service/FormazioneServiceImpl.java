@@ -16,6 +16,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
+import it.univpm.AssistenteFantacalcio.exception.InvalidIdException;
 import it.univpm.AssistenteFantacalcio.model.Giocatore;
 import it.univpm.AssistenteFantacalcio.model.GolSegnatiInTotale;
 import it.univpm.AssistenteFantacalcio.model.MediaAssist;
@@ -50,7 +51,12 @@ public class FormazioneServiceImpl implements FormazioneService {
 			JSONObject giocatoreJson = (JSONObject)array.get(i);
 			Giocatore giocatoreTemp = new Giocatore();
 			Long l = (Long) giocatoreJson.get("Id");
-			giocatoreTemp.setId(l.intValue());
+			try {
+				giocatoreTemp.setId(l.intValue());
+			} catch (InvalidIdException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			giocatoreTemp.setNome((String) giocatoreJson.get("Nome"));
 			giocatoreTemp.setRuolo((String) giocatoreJson.get("R"));
 			giocatoreTemp.setSquadra((String) giocatoreJson.get("Squadra"));
@@ -118,7 +124,12 @@ public class FormazioneServiceImpl implements FormazioneService {
 				JSONObject giocatore1Json = (JSONObject)array.get(i);
 				Giocatore giocatoreTemp = new Giocatore();
 				Long l = (Long) giocatore1Json.get("Id");
-				giocatoreTemp.setId(l.intValue());
+				try {
+					giocatoreTemp.setId(l.intValue());
+				} catch (InvalidIdException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				giocatoreTemp.setNome((String) giocatore1Json.get("Nome"));
 				giocatoreTemp.setRuolo((String) giocatore1Json.get("R"));
 				giocatoreTemp.setSquadra((String) giocatore1Json.get("Squadra"));

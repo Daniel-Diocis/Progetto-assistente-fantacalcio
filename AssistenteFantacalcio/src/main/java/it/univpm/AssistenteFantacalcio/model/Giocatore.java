@@ -2,6 +2,9 @@ package it.univpm.AssistenteFantacalcio.model;
 
 import java.util.Vector;
 
+import it.univpm.AssistenteFantacalcio.exception.InvalidIdException;
+import it.univpm.AssistenteFantacalcio.exception.*;
+
 public class Giocatore {
 
 	private int Id;
@@ -73,8 +76,11 @@ public class Giocatore {
      * Metodo che setta l'Id del giocatore.
      * @param int Id.
      */
-	public void setId(int Id) {
-		this.Id = Id;
+	public void setId(int Id) throws InvalidIdException {
+		if(Id >= 0)
+			this.Id = Id;
+		else
+			throw new InvalidIdException();
 	}
 
 	/**
