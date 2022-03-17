@@ -21,7 +21,7 @@ public class GiocatoreList {
 	private String Nome;
 	private int golFatti;
 	private int rigoriSegnati;
-	private GolSegnati golSegnati;
+	private GolSegnatiInTotale golSegnati;
 	
 	public GiocatoreList (String Nome, int i) throws IOException, ParseException
 	{
@@ -41,7 +41,7 @@ public class GiocatoreList {
 		this.Nome = (String) Giocatore.get("Nome");
 		this.golFatti = (int) Giocatore.get("Gf");
 		this.rigoriSegnati = (int) Giocatore.get("R+");
-		this.golSegnati = new GolSegnati (golFatti, rigoriSegnati);
+		this.golSegnati = new GolSegnatiInTotale (golFatti, rigoriSegnati);
 		
 		ArraylistName.add(Giocatore.get("Nome"));
 		ArraylistName.add(Giocatore.get("Id"));
@@ -112,11 +112,11 @@ public class GiocatoreList {
 		this.rigoriSegnati = rigoriSegnati;
 	}
 
-	public GolSegnati getGolSegnati() {
+	public GolSegnatiInTotale getGolSegnati() {
 		return golSegnati;
 	}
 
-	public void setGolSegnati(GolSegnati golSegnati) {
+	public void setGolSegnati(GolSegnatiInTotale golSegnati) {
 		this.golSegnati = golSegnati;
 	}
 	

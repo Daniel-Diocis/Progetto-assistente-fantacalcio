@@ -1,43 +1,43 @@
 package it.univpm.AssistenteFantacalcio.model;
 
-public class GolSegnati {
+public class GolSegnatiInTotale {
 	
-	private int golSegnati;
-	private int golFatti;
-	private int rigoriSegnati;
+	private int golSegnatiInTotale;
+	private int golFattiNonSuRigore;
+	private int rigoriFatti;
 	
 	/** Costruttore dell'oggetto.
      * @param golFatti: rappresenta i gol fatti su azione
      * @param rigoriSegnati: rappresenta i rigori segnati
      */
-	public GolSegnati(int golFatti, int rigoriSegnati) {
-		this.golFatti = golFatti;
-		this.rigoriSegnati = rigoriSegnati;
-		this.golSegnati = golFatti+golSegnati;
+	public GolSegnatiInTotale(int golFattiNonSuRigore, int rigoriFatti) {
+		this.golFattiNonSuRigore = golFattiNonSuRigore;
+		this.rigoriFatti = rigoriFatti;
+		this.golSegnatiInTotale = golFattiNonSuRigore+rigoriFatti;
 	}
 	
-	public int getGolSegnati() {
-		return golSegnati;
+	public int getGolSegnatiInTotale() {
+		return golSegnatiInTotale;
 	}
 
-	public void setGolSegnati(int golSegnati) {
-		this.golSegnati = golSegnati;
+	public void setGolSegnatiInTotale(int golSegnatiInTotale) {
+		this.golSegnatiInTotale = golSegnatiInTotale;
 	}
 
-	public int getGolFatti() {
-		return golFatti;
+	public int getGolFattiNonSuRigore() {
+		return golFattiNonSuRigore;
 	}
 
-	public void setGolFatti(int golFatti) {
-		this.golFatti = golFatti;
+	public void setGolFattiNonSuRigore(int golFattiNonSuRigore) {
+		this.golFattiNonSuRigore = golFattiNonSuRigore;
 	}
 
-	public int getRigoriSegnati() {
-		return rigoriSegnati;
+	public int getRigoriFatti() {
+		return rigoriFatti;
 	}
 
-	public void setRigoriSegnati(int rigoriSegnati) {
-		this.rigoriSegnati = rigoriSegnati;
+	public void setRigoriSegnati(int rigoriFatti) {
+		this.rigoriFatti = rigoriFatti;
 	}
 
 	/**
@@ -46,7 +46,7 @@ public class GolSegnati {
 	 */
 	@Override
 	public String toString() {
-		return "golSegnati = " + golSegnati;
+		return "gol Segnati in totale = " + golSegnatiInTotale;
 	}
 
 	/**

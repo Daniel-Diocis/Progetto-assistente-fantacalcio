@@ -3,28 +3,43 @@ package it.univpm.AssistenteFantacalcio.model;
 public class Stats {
 
 
-
-	private int Pg;
+	private int partiteGiocate;
 	private double Mf;
-	private int golFatti;
+	private int golFattiNonSuRigore;
 	private int golSubiti;
-	private GolSegnati golSegnati;
+	private int rigoriParati;
+	private int rigoriCalciati;
+	private int rigoriFatti;
+	private int rigoriSbagliati;
+	private GolSegnatiInTotale golSegnatiInTotale;
+	private MediaGolFatti mediaGolFatti;
+	private MediaGolSubiti mediaGolSubiti;
 	private int assist;
 	private int ammonizioni;
+	private MediaAssist mediaAssist;
 	private int espulsioni;
+	private int autogol;
 	
 	/** Costruttore dell'oggetto.
 	 * 
      */
 	public Stats() {
-		this.Pg = 0;
+		this.partiteGiocate = 0;
 		this.Mf = 0;
-		this.golFatti = 0;
+		this.golFattiNonSuRigore = 0;
 		this.golSubiti = 0;
-		this.golSegnati = null;
+		this.rigoriParati = 0;
+		this.rigoriCalciati = 0;
+		this.rigoriFatti = 0;
+		this.rigoriSbagliati = 0;
+		this.golSegnatiInTotale = null;
+		this.mediaGolFatti = null;
+		this.mediaGolSubiti = null;
 		this.assist = 0;
+		this.mediaAssist = null;
 		this.ammonizioni = 0;
 		this.espulsioni = 0;
+		this.autogol = 0;
 	}
 	
 	
@@ -32,9 +47,9 @@ public class Stats {
      * @param Pg: Partite giocate.
      * @param Mf: Media fantavoto.
      */
-	public Stats(int Pg, double Mf) {
+	public Stats(int partiteGiocate, double Mf) {
 		super();
-		this.Pg = Pg;
+		this.partiteGiocate = partiteGiocate;
 		this.Mf = Mf;
 	}
 	
@@ -46,11 +61,11 @@ public class Stats {
      * @param golSubiti: gol subiti
      * @param assist: assist
      */
-	public Stats(int Pg, double Mf, int golFatti, int golSubiti, int assist) {
+	public Stats(int partiteGiocate, double Mf, int golFattiNonSuRigore, int golSubiti, int assist) {
 		super();
-		this.Pg = Pg;
+		this.partiteGiocate = partiteGiocate;
 		this.Mf = Mf;
-		this.golFatti = golFatti;
+		this.golFattiNonSuRigore = golFattiNonSuRigore;
 		this.golSubiti = golSubiti;
 		this.assist = assist;
 	}
@@ -59,38 +74,47 @@ public class Stats {
 	/** Costruttore dell'oggetto.
      * @param Pg: Partite giocate.
      * @param Mf: Media fantavoto.
-     * @param golFatti: gol segnati 
+     * @param golFattiNonSuRigore: golFattiNonSuRigore
      * @param golSubiti: gol subiti
      * @param assist: assist
      * @param ammonizioni: ammonizioni
      * @param espulsioni: espulsioni
      */
-	public Stats(int Pg, double Mf, int golFatti, int golSubiti, int assist, int ammonizioni,
-			int espulsioni) {
+	public Stats(int partiteGiocate, double Mf, int golFattiNonSuRigore, int golSubiti, int rigoriParati,int rigoriCalciati, int rigoriFatti, 
+			int rigoriSbagliati, GolSegnatiInTotale golSegnatiInTotale, MediaGolFatti mediaGolFatti, MediaGolSubiti mediaGolSubiti, int assist, MediaAssist mediaAssist, int ammonizioni, int espulsioni, int autogol) {
 		super();
-		this.Pg = Pg;
+		this.partiteGiocate = partiteGiocate;
 		this.Mf = Mf;
-		this.golFatti = golFatti;
+		this.golFattiNonSuRigore = golFattiNonSuRigore;
 		this.golSubiti = golSubiti;
+		this.rigoriParati = rigoriParati;
+		this.rigoriCalciati = rigoriCalciati;
+		this.rigoriFatti = rigoriFatti;
+		this.rigoriSbagliati = rigoriSbagliati;
+		this.golSegnatiInTotale = golSegnatiInTotale;
+		this.mediaGolFatti = mediaGolFatti;
+		this.mediaGolSubiti = mediaGolSubiti;
 		this.assist = assist;
+		this.mediaAssist = mediaAssist;
 		this.ammonizioni = ammonizioni;
 		this.espulsioni = espulsioni;
+		this.autogol = autogol;
 	}
 
 	/**
      * Metodo che restituisce le Pg.
      * @return main
      */
-	public int getPg() {
-		return Pg;
+	public int getpartiteGiocate() {
+		return partiteGiocate;
 	}
 	
 	/**
      * Metodo che setta le partite giocate.
      * @param String main.
      */
-	public void setMain(int Pg) {
-		this.Pg = Pg;
+	public void setpartiteGiocate(int partiteGiocate) {
+		this.partiteGiocate = partiteGiocate;
 	}
 	
 	/**
@@ -113,16 +137,16 @@ public class Stats {
      * Metodo che restituisce i gol fatti.
      * @return golFatti
      */
-	public int getgolFatti() {
-		return golFatti;
+	public int getgolFattiNonSuRigore() {
+		return golFattiNonSuRigore;
 	}
 	
 	/**
      * Metodo che setta i gol fatti.
      * @param int golFatti.
      */
-	public void setgolFatti(int golFatti) {
-		this.golFatti = golFatti;
+	public void setgolFattiNonSuRigore(int golFattiNonSuRigore) {
+		this.golFattiNonSuRigore = golFattiNonSuRigore;
 	}
 	
 	/**
@@ -141,13 +165,67 @@ public class Stats {
 		this.golSubiti = golSubiti;
 	}
 	
-	public GolSegnati getGolSegnati() {
-		return golSegnati;
+	public int getRigoriParati() {
+		return rigoriParati;
 	}
 
 
-	public void setGolSegnati(GolSegnati golSegnati) {
-		this.golSegnati = golSegnati;
+	public void setRigoriParati(int rigoriParati) {
+		this.rigoriParati = rigoriParati;
+	}	
+	
+	public int getRigoriCalciati() {
+		return rigoriCalciati;
+	}
+
+
+	public void setRigoriCalciati(int rigoriCalciati) {
+		this.rigoriCalciati = rigoriCalciati;
+	}
+	
+	public int getRigoriFatti() {
+		return rigoriFatti;
+	}
+
+
+	public void setRigoriFatti(int rigoriFatti) {
+		this.rigoriFatti = rigoriFatti;
+	}
+	
+	public int getRigoriSbagliati() {
+		return rigoriSbagliati;
+	}
+
+
+	public void setRigoriSbagliati(int rigoriSbagliati) {
+		this.rigoriSbagliati = rigoriSbagliati;
+	}
+	
+	public GolSegnatiInTotale getGolSegnatiInTotale() {
+		return golSegnatiInTotale;
+	}
+
+
+	public void setGolSegnatiInTotale(GolSegnatiInTotale golSegnatiInTotale) {
+		this.golSegnatiInTotale = golSegnatiInTotale;
+	}
+	
+	public MediaGolFatti getMediaGolFatti() {
+		return mediaGolFatti;
+	}
+
+
+	public void setMediaGolFatti(MediaGolFatti mediaGolFatti) {
+		this.mediaGolFatti = mediaGolFatti;
+	}
+	
+	public MediaGolSubiti getMediaGolSubiti() {
+		return mediaGolSubiti;
+	}
+
+
+	public void setMediaGolSubiti(MediaGolSubiti mediaGolSubiti) {
+		this.mediaGolSubiti = mediaGolSubiti;
 	}
 	
 	/**
@@ -164,6 +242,15 @@ public class Stats {
      */
 	public void setassist(int assist) {
 		this.assist = assist;
+	}
+	
+	public MediaAssist getMediaAssist() {
+		return mediaAssist;
+	}
+
+
+	public void setMediaAssist(MediaAssist mediaAssist) {
+		this.mediaAssist = mediaAssist;
 	}
 	
 	/**
@@ -198,6 +285,15 @@ public class Stats {
 		this.espulsioni = espulsioni;
 	}
 	
+	public int getAutogol() {
+		return autogol;
+	}
+
+
+	public void setAutogol(int autogol) {
+		this.autogol = autogol;
+	}
+	
 	
 	/**
 	 * Override del metodo toString.
@@ -205,7 +301,7 @@ public class Stats {
 	 */
 	@Override
 	public String toString() {
-		return "Partite giocate=" + Pg + "Media fantavoto=" + Mf + ", golFatti=" + golFatti + ", golSubiti=" + golSubiti + ", assist="
-				+ assist + ", ammonizioni=" + ammonizioni + ", espulsioni=" + espulsioni + "";
+		return "Partite giocate=" + partiteGiocate + ", Media fantavoto=" + Mf + ", golFattiNonSuRigore=" + golFattiNonSuRigore + ", golSubiti=" + golSubiti +", rigoriParati=" + rigoriParati + ",rigoriCalciati = " + rigoriCalciati + ", rigoriFatti=" + rigoriFatti
+				+ ", rigoriSbagliati = " + rigoriSbagliati + ", gol Segnati in totale=" + golSegnatiInTotale + ", mediaGolFatti=" + mediaGolFatti + ", mediaGolSubiti=" + mediaGolSubiti + ", assist="+ assist + ", mediaAssist=" + mediaAssist + ", ammonizioni=" + ammonizioni + ", espulsioni=" + espulsioni + ", autogol=" + autogol + "";
 	}
 }

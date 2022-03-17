@@ -1,5 +1,8 @@
 package it.univpm.AssistenteFantacalcio.controller;
 
+import java.io.IOException;
+
+import org.json.simple.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,8 +20,12 @@ public class FormazioneController {
 	@Autowired
 	FormazioneService formazioneService;
 	
+	@RequestMapping(value = "/database", method = RequestMethod.GET)
+	public ResponseEntity<Object> getDatabase() {
+		return new ResponseEntity<>(formazioneService.getDatabase(), HttpStatus.OK);
+	}
 	@RequestMapping(value = "/giocatori", method = RequestMethod.GET)
-	public ResponseEntity<Object> getGiocatore() {
+	public ResponseEntity<Object> getGiocatori() {
 		return new ResponseEntity<>(formazioneService.getGiocatori(), HttpStatus.OK);
 	}
 /*	@RequestMapping(value= "/giocatori/{id}", method = RequestMethod.PUT)
@@ -27,15 +34,15 @@ public class FormazioneController {
 		
 		formazioneService.updateGiocatore(id, giocatore);
 		return new ResponseEntity<>("Player is updated succesfully", HttpStatus.OK);
-	}
-	@RequestMapping(value = "/giocatori/{id}", method = RequestMethod.DELETE)
-	public ResponseEntity<Object> delete(@PathVariable("id") Integer id) {
-		formazioneService.deleteGiocatore(id);
+	}*/
+	@RequestMapping(value = "/giocatori", method = RequestMethod.DELETE)
+	public ResponseEntity<Object> delete(@PathVariable Giocatore giocatore) {
+		formazioneService.deleteGiocatore(giocatore);
 		return new ResponseEntity<>("Player is deleted succesfully", HttpStatus.OK);
 	}
 	@RequestMapping(value = "/giocatori", method = RequestMethod.POST)
-	public ResponseEntity<Object> createGiocatore(@RequestBody Giocatore giocatore) {
-		formazioneService.createGiocatore(giocatore);
+	public ResponseEntity<Object> createGiocatore(@RequestBody Giocatore giocatore) throws IOException, ParseException {
+		formazioneService.aggiungiGiocatore(giocatore);
 		return new ResponseEntity<>("Player is created succesfully", HttpStatus.CREATED);
-	}*/
+	}
 }
