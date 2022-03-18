@@ -72,9 +72,9 @@ Prima di cominciare a fare un progetto bisogna avere le idee ben precise di come
 
 Package | Classi | A cosa servono?
 -- | :--: | :--:
-Model | Giocatore,GolsegnatiInTotale,MediaAssist,MediaGolFatti,MediaGolSubiti,squadra,Stats| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
+Model | DifferenzaReti,Giocatore,GolSegnatiInTotale,MediaAssist,MediaGolFatti,MediaGolSegnatiSquadra,MediaGolSubiti,MediaGolSubitiSquadra,Squadra,Stats| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
 Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete all'interno di esso servono per gestire i servizi dell app 
-Controller |AssistentefantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
+Controller |AssistenteFantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
 
 #### Fase 5: Creazione Classi del Model
 Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.(per arrivare subito al model del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/model)).
