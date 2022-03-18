@@ -66,6 +66,7 @@ Abbiamo diviso, senza toccare il package creato in automatico da maven, il nostr
 - Package del Service -> Il quale,con i suoi sottopacchetti che inseriremo noi a seconda di quanti ce ne servono, serve per gestire i nostri servizi.
 - Package del Model -> I membri di questo pacchetto e dei suoi relativi sottopacchetti sono destinati all'uso nella modellazione del linguaggio.
 - Package del Controller -> Il quale è usato, lui insieme a tutti i pacchetti che inseriamo al suo interno, per contenere le rotte del progetto e ci permette di ottenere delle risposta a ciò che richiediamo.(esso è collegato anche alle interfacce grafiche)
+- Package Exception -> ovvero il package che serve per gestire le situazioni anomale,in modo molto più ordinato, che si potrebbero andare a creare durante l'avvio o l'uso del programma.
 
 #### Fase 4: Struttura e suddivisione del progetto
 Prima di cominciare a fare un progetto bisogna avere le idee ben precise di come farlo.Noi abbiamo deciso di strutturarlo nei tre package riportati in precedenza ma ovviamente non bastano solo quelli! Innanzitutto prima di tutto dobbiamo creare tutte i package utili che ci servono per creare una Fantalega nel quale poi il nostro Fanta Assistente ci potrà aiutare dandoci dei consigli. All'interno infatti dei package iniziali abbiamo inserito:
@@ -74,7 +75,7 @@ Package | Classi | A cosa servono?
 -- | :--: | :--:
 Model | DifferenzaReti,Giocatore,GolSegnatiInTotale,MediaAssist,MediaGolFatti,MediaGolSegnatiSquadra,MediaGolSubiti,MediaGolSubitiSquadra,Squadra,Stats| Qui ci saranno tutti i package che vi faranno capire come abbiamo strutturato il progetto e come lo abbiamo suddiviso
 Service | FormazioneService,FormazioneServiceImpl| Tutti i package che troverete all'interno di esso servono per gestire i servizi dell app 
-Controller |AssistenteFantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte alle interfaccie per far si che il programma funzioni.
+Controller |AssistenteFantacalcioController,FormazioneController | All'interno di esso ci saranno tutte le classi e i pacchetti che collegheranno le rotte per far si che il programma funzioni e che giri facendo si che i test che faremo del programma su postman funzionino correttamente.
 
 #### Fase 5: Creazione Classi del Model
 Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchetto dove inseriremo tutte le classi necessarie per dare una struttura ben precisa al nostro progetto e che serve per accedere a tutti i dati utili dell'applicazione.(per arrivare subito al model del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/model)).
@@ -84,20 +85,20 @@ Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchett
   
 
 #### Fase 6: Creazione Classi del Controller
-Dopo aver terminato la creazione del nostro package Model,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in praticaa modificando allo stesso tempo lo stato degli altri due componenti.(per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/controller)).
+Dopo aver terminato la creazione del nostro package Model,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che ci servira per prendere i dati dal sito del fantacalcio, come per esempio voti e statistiche, e che riceverà i comandi dell'utente,attraverso il package service, mettendoli in pratica modificando allo stesso tempo lo stato degli altri due componenti.(per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/controller)).
 
 <img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
 
 #### Fase 7: Creazione Classi del Service
-Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service, il quale ci servirà per la visualizzazione dei dati che sono contenuti nel model e che si occupa dell'interazione tra l'utente che vuole usare l'applicazione e l'applicazione stessa.(una sorta di interfaccia per il nostro progetto). 
+Come penultimo passo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro package Service,visualizzando  i dati contenuti nel model e che si occupa dell'interazione con utenti e agenti. 
 (Per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/service)).
 
 <img width="194" alt="Schermata 2022-03-17 alle 18 43 25" src="https://user-images.githubusercontent.com/99751208/158863243-51d836b9-59d0-4a20-8b34-6f1dcf05ea16.png">
 
 
 #### Fase 8: Creazione del Menù .
-In questa classe controller abbiamo creato il menù che stampa a schermoe permette all'utente di fare cio che abbiamo descritto nella sezione [ESEMPIO INTERFACCIA](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/README.md#esempio-interfacciacomputer).
+Nella classe AssistenteFantacalcioController abbiamo creato il menù che viene stampato a schermo e permette all'utente di fare cio che abbiamo descritto nella sezione [ESEMPIO INTERFACCIA](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/README.md#esempio-interfacciacomputer).
 
 <img width="586" alt="Schermata 2022-03-17 alle 18 52 20" src="https://user-images.githubusercontent.com/99751208/158864937-fc6d81b7-ffca-4ab1-9a77-3ee96f9a5dc2.png">
 
@@ -111,7 +112,7 @@ https://user-images.githubusercontent.com/99751208/158959471-81847d46-ac29-48b2-
 
 ###                                    DOCUMENTAZIONE:open_book:
 - Come scritto in precedenza abbiamo preso i dati per le statistiche dei calciatori da [qui](https://www.fantacalcio.it/statistiche-serie-a) scaricando anche il   file che ho riportato sopra in formato pdf, situato [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.pdf), che contiene una tabella con nome, squadra di appartenenza del calciatore, mediavoto,mediafantavoto,rigori parati(se portiere il calciatore in questione), rigori sbagliati e segnati (se il giocatore in questione è di movimento), ammonizioni, espulsioni e assist. Inoltre abbiamo anche inserito il file in un altro formato, il quale lo abbiamo messo [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/Statistiche_Fantacalcio_2021-22-2.xlsx),che abbiamo utilizzato poi per creare il file json, [inserito qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/jsonfiles) per usarlo su eclipse per la costruzione del nostro progetto sull'IDE, eclipse appunto.
-- Inoltre abbiamo inserito tutta la documentazione Javadoc utile per migliorare la comprensione del codice sorgente.
+- Inoltre abbiamo inserito tutta la documentazione Javadoc utile per migliorare la comprensione del codice sorgente.(situata tutta all'interno del programma prima di ogni classe o paramentro che abbiamo definito)
 - Per visualizzare le eccezioni andare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/exception).
 
 
@@ -123,11 +124,11 @@ a)Qui potete vedre come noi abbiamo eseguito su postman,tramite la Get, il coman
 
 https://user-images.githubusercontent.com/99751208/158898499-855ec8ec-3883-472a-8712-5b8257b341e8.mp4
 
-b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche (mi raccomando per creare scrivere per esempio {"nome":VLAHOVIC} senno da errore) mediante Post sempre di postman) abbiamo lanciato il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
+b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche (:rotating_light:Mi raccomando per creare,scrivere per esempio {"nome":VLAHOVIC} e usare la Post, scrivere il nome del giocatore tutto in maiuscolo e il nome tutto in minuscolo entrambi tra doppie virgolette e separati dai due punti senno darà errore. Poi lanciare il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
 
 https://user-images.githubusercontent.com/99751208/158898999-ec1b9ddb-4c43-470b-b373-4b533f27cd43.mp4
 
-c)Dopo aver svolto i primi due comandi, se per esempio avevamo richiesto i dati di un giocatore che in realtà non volevamo(l'esempio nel video è stato fatto con Vlhaovic), ora possiamo lanciare il comando /delete per togliere dalla lista il giocatore che non volevamo vedere più.
+c)Dopo aver svolto i primi due comandi, se per esempio avevamo richiesto i dati di un giocatore che in realtà non volevamo(l'esempio nel video è stato fatto con Vlhaovic), ora possiamo lanciare il comando Delete per togliere dalla lista il giocatore che non volevamo vedere più.
 
 https://user-images.githubusercontent.com/99751208/158899514-e8176710-e514-44c8-9d8d-b7f34cfaecdd.mp4
 
@@ -155,7 +156,7 @@ https://user-images.githubusercontent.com/99751208/158960957-be68fa06-c387-4f95-
 Noi abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com) per la scrittura e creazione del file html per l'esempio di interfaccia che ci siamo immaginati dovesse avere il programma.
 I Tre principali sono /database , /giocatori e /squadra(con il loro relativo utilizzo e scopo)
 - Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare. Il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html). Ovviamente i tasti che si vedono integrati nel build dell'html non sono collegati e perciò non svolgono alcuna funzione, in quanto non abbiamo implementato tale interfaccia ad Eclipse.
-- Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel Delete di postman scrivendo /giocatori/GiocatorechesivuoleCancellare, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
+- Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel Delete di postman scrivendo /giocatori/GIOCATOREDACANCELLARE, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
 - L'ultimo comando che abbiamo implementato è lo /squadra ovvero il comando che ti permette di avere tutte le statistiche della squadra che ti serve per scegliere i tuoi fantagiocatori al meglio e non sbagliare; statistiche come il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti cosi nel caso si voglia scegliere il portiere a seconda di quanti gol ha subito quella squdra, tu scegli il miglior portiere in circolazione.(stesso tipo di ragionamento lo si puo fare per difensori,centrocampisti e attacanti a seconda dei gol fatti dalla squadra)
 
 
