@@ -101,6 +101,10 @@ In questa classe controller abbiamo creato il menù che stampa a schermoe permet
 
 <img width="586" alt="Schermata 2022-03-17 alle 18 52 20" src="https://user-images.githubusercontent.com/99751208/158864937-fc6d81b7-ffca-4ab1-9a77-3ee96f9a5dc2.png">
 
+Ecco come il menù viene visualizzato su Postman
+
+https://user-images.githubusercontent.com/99751208/158959471-81847d46-ac29-48b2-9fb8-8defcfd0faf4.mp4
+
 
 
 
