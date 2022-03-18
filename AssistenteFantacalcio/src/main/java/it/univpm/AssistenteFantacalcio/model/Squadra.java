@@ -61,132 +61,151 @@ public class Squadra {
 		this.mediaGolSubitiSquadra = mediaGolSubitiSquadra;
 	}
 	/**
-	 * @return the nomeSquadra
+	 * Metodo che restituisce il nome della squadra.
+	 * @return nomeSquadra
 	 */
 	public String getNomeSquadra() {
 		return nomeSquadra;
 	}
 
 	/**
-	 * @param nomeSquadra the nomeSquadra to set
+	 * Metodo che setta il nome della squadra.
+	 * @param String nomeSquadra
 	 */
 	public void setNomeSquadra(String nomeSquadra) {
 		this.nomeSquadra = nomeSquadra;
 	}
 
 	/**
-	 * @return the posizione
+	 * Metodo che restituisce la posizione in campionato della squadra.
+	 * @return posizione
 	 */
 	public int getPosizione() {
 		return posizione;
 	}
 
 	/**
-	 * @param posizione the posizione to set
+	 * Metodo che setta la posizione in classifica della squadra.
+	 * @param int posizione
 	 */
 	public void setPosizione(int posizione) {
 		this.posizione = posizione;
 	}
 
 	/**
-	 * @return the puntiSquadra
+	 * Metodo che restituisce i punti totali della squadra.
+	 * @return puntiSquadra
 	 */
 	public int getPuntiSquadra() {
 		return puntiSquadra;
 	}
 
 	/**
-	 * @param puntiSquadra the puntiSquadra to set
+	 * Metodo che setta i punti totali della squadra.
+	 * @param int puntiSquadra
 	 */
 	public void setPuntiSquadra(int puntiSquadra) {
 		this.puntiSquadra = puntiSquadra;
 	}
 
 	/**
-	 * @return the qualificazioneAttuale
+	 * Metodo che restituisce la qualificazione attuale della squadra.
+	 * @return qualificazioneAttuale
 	 */
 	public String getQualificazioneAttuale() {
 		return qualificazioneAttuale;
 	}
 
 	/**
-	 * @param qualificazioneAttuale the qualificazioneAttuale to set
+	 * Metodo che setta la qualificazione attuale della squadra.
+	 * @param String qualificazioneAttuale
 	 */
 	public void setQualificazioneAttuale(String qualificazioneAttuale) {
 		this.qualificazioneAttuale = qualificazioneAttuale;
 	}
 
 	/**
-	 * @return the partiteGiocateSquadra
+	 * Metodo che restituisce le partite giocate dalla squadra.
+	 * @return partiteGiocateSquadra
 	 */
 	public int getPartiteGiocateSquadra() {
 		return partiteGiocateSquadra;
 	}
 
 	/**
-	 * @param partiteGiocateSquadra the partiteGiocateSquadra to set
+	 * Metodo che setta le partite giocate dalla squadra.
+	 * @param int partiteGiocateSquadra
 	 */
 	public void setPartiteGiocateSquadra(int partiteGiocateSquadra) {
 		this.partiteGiocateSquadra = partiteGiocateSquadra;
 	}
 
 	/**
-	 * @return the partiteVinte
+	 * Metodo che restituisce le partite vinte dalla squadra.
+	 * @return partiteVinte
 	 */
 	public int getPartiteVinte() {
 		return partiteVinte;
 	}
 
 	/**
-	 * @param partiteVinte the partiteVinte to set
+	 * Metodo che setta le partite vinte dalla squadra.
+	 * @param int partiteVinte
 	 */
 	public void setPartiteVinte(int partiteVinte) {
 		this.partiteVinte = partiteVinte;
 	}
 
 	/**
-	 * @return the partitePareggiate
+	 * Metodo che restituisce le partite pareggiate dalla squadra.
+	 * @return partitePareggiate
 	 */
 	public int getPartitePareggiate() {
 		return partitePareggiate;
 	}
 
 	/**
-	 * @param partitePareggiate the partitePareggiate to set
+	 * Metodo che setta le partite pareggiate dalla squadra.
+	 * @param int partitePareggiate
 	 */
 	public void setPartitePareggiate(int partitePareggiate) {
 		this.partitePareggiate = partitePareggiate;
 	}
 
 	/**
-	 * @return the partitePerse
+	 * Metodo che restituisce le partite perse dalla squadra.
+	 * @return partitePerse
 	 */
 	public int getPartitePerse() {
 		return partitePerse;
 	}
 
 	/**
-	 * @param partitePerse the partitePerse to set
+	 * Metodo che setta le partite perse dalla squadra.
+	 * @param int partitePerse
 	 */
 	public void setPartitePerse(int partitePerse) {
 		this.partitePerse = partitePerse;
 	}
 
 	/**
-	 * @return the golSegnatiSquadra
+	 * Metodo che restituisce i gol segnati dalla squadra.
+	 * @return golSegnatiSquadra
 	 */
 	public int getGolSegnatiSquadra() {
 		return golSegnatiSquadra;
 	}
 
 	/**
-	 * @param golSegnatiSquadra the golSegnatiSquadra to set
+	 * Metodo che setta i gol segnati dalla squadra.
+	 * @param int golSegnatiSquadra
 	 */
 	public void setGolSegnatiSquadra(int golSegnatiSquadra) {
 		this.golSegnatiSquadra = golSegnatiSquadra;
 	}
 
 	/**
+	 * Metodo che restituisce i gol subiti dalla squadra.
 	 * @return the golSubitiSquadra
 	 */
 	public int getGolSubitiSquadra() {
@@ -194,49 +213,56 @@ public class Squadra {
 	}
 
 	/**
-	 * @param golSubitiSquadra the golSubitiSquadra to set
+	 * Metodo che setta i gol subiti dalla squadra.
+	 * @param int golSubitiSquadra
 	 */
 	public void setGolSubitiSquadra(int golSubitiSquadra) {
 		this.golSubitiSquadra = golSubitiSquadra;
 	}
 
 	/**
-	 * @return the differenzaReti
+	 * Metodo che restituisce la differenza reti della squadra.
+	 * @return differenzaReti
 	 */
 	public DifferenzaReti getDifferenzaReti() {
 		return differenzaReti;
 	}
 
 	/**
-	 * @param differenzaReti the differenzaReti to set
+	 * Metodo che setta la differenza reti della squadra.
+	 * @param DifferenzaReti differenzaReti
 	 */
 	public void setDifferenzaReti(DifferenzaReti differenzaReti) {
 		this.differenzaReti = differenzaReti;
 	}
 
 	/**
-	 * @return the mediaGolSegnatiSquadra
+	 * Metodo che restituisce la media dei gol segnati dalla squadra.
+	 * @return mediaGolSegnatiSquadra
 	 */
 	public MediaGolSegnatiSquadra getMediaGolSegnatiSquadra() {
 		return mediaGolSegnatiSquadra;
 	}
 
 	/**
-	 * @param mediaGolSegnatiSquadra the mediaGolSegnatiSquadra to set
+	 * Metodo che setta la media dei gol segnati dalla squadra.
+	 * @param MediagolSegnatiSquadra mediaGolSegnatiSquadra
 	 */
 	public void setMediaGolSegnatiSquadra(MediaGolSegnatiSquadra mediaGolSegnatiSquadra) {
 		this.mediaGolSegnatiSquadra = mediaGolSegnatiSquadra;
 	}
 
 	/**
-	 * @return the mediaGolSubitiSquadra
+	 * Metodo che restituisce la media dei gol subiti dalla squadra.
+	 * @return mediaGolSubitiSquadra
 	 */
 	public MediaGolSubitiSquadra getMediaGolSubitiSquadra() {
 		return mediaGolSubitiSquadra;
 	}
 
 	/**
-	 * @param mediaGolSubitiSquadra the mediaGolSubitiSquadra to set
+	 * Metodo che setta la media dei gol subiti dalla squadra.
+	 * @param MediaGolSubitiSquadra mediaGolSubitiSquadra
 	 */
 	public void setMediaGolSubitiSquadra(MediaGolSubitiSquadra mediaGolSubitiSquadra) {
 		this.mediaGolSubitiSquadra = mediaGolSubitiSquadra;
@@ -244,7 +270,7 @@ public class Squadra {
 	
 	/**
 	 * Override del metodo toString(),
-	 * @return String che rappresenta la media gol subiti della squdra.
+	 * @return String che rappresenta la media gol subiti della squadra.
 	 */
 	@Override
 	public String toString() {

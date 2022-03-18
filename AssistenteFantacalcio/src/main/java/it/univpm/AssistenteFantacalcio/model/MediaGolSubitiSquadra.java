@@ -1,5 +1,10 @@
 package it.univpm.AssistenteFantacalcio.model;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 public class MediaGolSubitiSquadra {
 
 	private double MediaGolSubitiSquadra;
@@ -16,42 +21,48 @@ public class MediaGolSubitiSquadra {
 		this.MediaGolSubitiSquadra = (double) golSubitiSquadra / partiteGiocateSquadra;
 	}
 	/**
-	 * @return the mediaGolSubitiSquadra
+	 * Metodo che restituisce la media dei gol subiti dalla squadra.
+	 * @return mediaGolSubitiSquadra
 	 */
 	public double getMediaGolSubitiSquadra() {
 		return MediaGolSubitiSquadra;
 	}
 
 	/**
-	 * @param mediaGolSubitiSquadra the mediaGolSubitiSquadra to set
+	 * Metodo che setta i gol subiti dalla squadra.
+	 * @param double mediaGolSubitiSquadra
 	 */
 	public void setMediaGolSubitiSquadra(double mediaGolSubitiSquadra) {
 		MediaGolSubitiSquadra = mediaGolSubitiSquadra;
 	}
 
 	/**
-	 * @return the partiteGiocateSquadra
+	 * Metodo che restituisce le partite giocate dalla squadra.
+	 * @return partiteGiocateSquadra
 	 */
 	public int getPartiteGiocateSquadra() {
 		return partiteGiocateSquadra;
 	}
 
 	/**
-	 * @param partiteGiocateSquadra the partiteGiocateSquadra to set
+	 * Metodo che setta le partite giocate dalla squadra
+	 * @param int partiteGiocateSquadra
 	 */
 	public void setPartiteGiocateSquadra(int partiteGiocateSquadra) {
 		this.partiteGiocateSquadra = partiteGiocateSquadra;
 	}
 
 	/**
-	 * @return the golSubitiSquadra
+	 * Metodo che restituisce i gol subiti dalla squadra.
+	 * @return golSubitiSquadra
 	 */
 	public int getGolSubitiSquadra() {
 		return golSubitiSquadra;
 	}
 
 	/**
-	 * @param golSubitiSquadra the golSubitiSquadra to set
+	 * Metodo che setta i gol subiti dalla squadra.
+	 * @param int golSubitiSquadra
 	 */
 	public void setGolSubitiSquadra(int golSubitiSquadra) {
 		this.golSubitiSquadra = golSubitiSquadra;
@@ -59,7 +70,7 @@ public class MediaGolSubitiSquadra {
 	
 	/**
 	 * Override del metodo toString(),
-	 * @return String che rappresenta la media gol subiti della squdra.
+	 * @return String che rappresenta la media dei gol subiti della squdra.
 	 */
 	@Override
 	public String toString() {

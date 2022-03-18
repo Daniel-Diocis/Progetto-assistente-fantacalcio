@@ -34,7 +34,7 @@ import it.univpm.AssistenteFantacalcio.model.Stats;
  * @author Enrico Maria Flati
  */
 
-/**La calsse FormazioneServiceImpl contiene l'implementazione dell'interfaccia FormazioneService.
+/**La classe FormazioneServiceImpl contiene l'implementazione dell'interfaccia FormazioneService.
  * Contiene i metodi che vengono utilizzati dal controller.
  */
 
@@ -184,7 +184,7 @@ public class FormazioneServiceImpl implements FormazioneService {
 	}
 	
 	/**
-	 * Questo metodo va a eliminare il giocatore da giocatoreRepo usando il Nome 
+	 * Questo metodo va a riconoscere ed eliminare il giocatore da giocatoreRepo usando il Nome 
 	 * dato in delete per riconoscerlo nella lista di giocatori.
 	 * @param il nome del giocatore che si vuole eliminare.
 	 * @param giocatoreRepo: da qua si va a rimuovere il giocatore con il nome immesso
@@ -196,6 +196,12 @@ public class FormazioneServiceImpl implements FormazioneService {
 		
 	}
 
+	/**
+	 * Questo metodo va a prendere da un file json tutte le statistiche delle squadre il cui nome 
+	 * coincide con lo stesso immesso dall'utente utilizzando aggiungiSquadra
+	 * @param nomeSquadra : il nome della squadra che si vuole inserire
+	 * @param squadraRepo: dove si vanno a immettere tutti i dati della squadra/squadre
+	 */
 	@Override
 	public void aggiungiSquadra(Squadra squadra) throws IOException, ParseException {
 		if(squadraRepo.containsKey(squadra.getNomeSquadra())) {
@@ -255,6 +261,12 @@ public class FormazioneServiceImpl implements FormazioneService {
 		return squadraRepo.values();
 	}
 
+	/**
+	 * Questo metodo va a riconoscere ed eliminare la squadra da squadraRepo usando il NomeSquadra
+	 * dato in delete per riconoscerlo nella lista di squadre.
+	 * @param NomeSquadra : nome della squadra che si vuole eliminare.
+	 * @param squadraRepo: da qua si va a rimuovere la squadra con il nome immesso
+	 */
 	@Override
 	public void deleteSquadra(String NomeSquadra) {
 		squadraRepo.remove(NomeSquadra);

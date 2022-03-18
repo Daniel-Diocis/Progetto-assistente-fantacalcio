@@ -18,7 +18,7 @@ public class AssistenteFantacalcioController {
 	"Hai bisogno dell'aiuto del Fanta-Assistente vedo, cosa vuoi fare? " + ((char) 10) + 
 	"Scegli cosa puoi fare tra queste scelte: " + ((char) 10) + 
 	"a) Scrivi /giocatori per inserire e modificare la tua formazione:"+ ((char) 10) +
-	"con il comando POST puoi inserire il giocatore rispettando i seguenti caratteri (esempio: {"+((char) 34)+"nome"+((char) 34)+": "+((char) 34)+"VLAHOVIC"+((char) 34)+"}" + ((char) 10) +
+	"con il comando POST puoi inserire il giocatore usando il _ al posto dello spazio e rispettando i seguenti caratteri (esempio: {"+((char) 34)+"nome"+((char) 34)+": "+((char) 34)+"VLAHOVIC"+((char) 34)+"}" + ((char) 10) +
 	"con il comando GET avrai la lista dei giocatori da te inseriti con rispettivi dati e statistiche" + ((char) 10) +
 	"con il comando DELETE potrai cancellare il giocatore che vuoi dalla lista scrivendo dopo /giocatori il nome del giocatore che si desidera cancellare (esempio http://localhost:8090/giocatori/BERARDI" + ((char) 10) +
 	"b) Scrivi /database e con il comando GET avrai il database di tutti i giocatori della serie A") + ((char) 10) + 

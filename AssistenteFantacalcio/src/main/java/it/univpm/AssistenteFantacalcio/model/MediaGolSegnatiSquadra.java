@@ -1,5 +1,10 @@
 package it.univpm.AssistenteFantacalcio.model;
 
+/**
+ * @author Daniel Diocis Calero
+ * @author Enrico Maria Flati
+ */
+
 public class MediaGolSegnatiSquadra {
 
 	private double MediaGolSegnatiSquadra;
@@ -18,42 +23,48 @@ public class MediaGolSegnatiSquadra {
 	}
 	
 	/**
-	 * @return the MediaGolSegnatiSquadra
+	 * Metodo che restituisce la media dei gol segnati dalla squadra.
+	 * @return MediaGolSegnatiSquadra
 	 */
 	public double getMediaGolSegnatiSquadra() {
 		return MediaGolSegnatiSquadra;
 	}
 
 	/**
-	 * @param MediaGolSegnatiSquadra the MediaGolSegnatiSquadra to set
+	 * Metodo che setta la media dei gol segnati dalla squadra
+	 * @param double MediaGolSegnatiSquadra
 	 */
 	public void setMediaGolSegnatiSquadra(double MediaGolSegnatiSquadra) {
 		this.MediaGolSegnatiSquadra = MediaGolSegnatiSquadra;
 	}
 
 	/**
-	 * @return the partiteGiocateSquadra
+	 * Metodo che restituisce le partite giocate dalla squadra.
+	 * @return partiteGiocateSquadra
 	 */
 	public int getPartiteGiocateSquadra() {
 		return partiteGiocateSquadra;
 	}
 
 	/**
-	 * @param partiteGiocateSquadra the partiteGiocateSquadra to set
+	 * Metodo che setta le partite giocate dalla squadra.
+	 * @param int partiteGiocateSquadra
 	 */
 	public void setPartiteGiocateSquadra(int partiteGiocateSquadra) {
 		this.partiteGiocateSquadra = partiteGiocateSquadra;
 	}
 
 	/**
-	 * @return the golSegnatiSquadra
+	 * Metodo che restituisce i gol segnati dalla squadra.
+	 * @return golSegnatiSquadra
 	 */
 	public int getGolSegnatiSquadra() {
 		return golSegnatiSquadra;
 	}
 
 	/**
-	 * @param golSegnatiSquadra the golSegnatiSquadra to set
+	 * Metodo che setta i gol segnati dalla squadra.
+	 * @param int golSegnatiSquadra
 	 */
 	public void setGolSegnatiSquadra(int golSegnatiSquadra) {
 		this.golSegnatiSquadra = golSegnatiSquadra;
