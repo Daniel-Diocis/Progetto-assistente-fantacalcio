@@ -131,11 +131,13 @@ c)Dopo aver svolto i primi due comandi, se per esempio avevamo richiesto i dati 
 
 https://user-images.githubusercontent.com/99751208/158899514-e8176710-e514-44c8-9d8d-b7f34cfaecdd.mp4
 
-d)Un altro comando utile è lo /squadra che ti permette di avere tutte le statistiche riguardanti una squadra reale (il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti) in modo tale che quando si va a scegliere i giocatori della tua fantaSquadra li scegli al meglio senza sbagliare.(:rotating_light:Attenzione come per lo slash squadra bper richiamare questa funzione bisogna scrivere {"nomeSquadra":Juventus}, ovvero con nomeSquadra scritto in UpperCamelCAse e la squadra in questione con l'iniziale in maiuscolo)
+d)Un altro comando utile è lo /squadra che ti permette di avere tutte le statistiche riguardanti una squadra reale (il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti) in modo tale che quando si va a scegliere i giocatori della tua fantaSquadra li scegli al meglio senza sbagliare.(:rotating_light:Attenzione come per lo slash squadra bper richiamare questa funzione bisogna scrivere {"nomeSquadra":"Juventus"}, ovvero con nomeSquadra scritto in UpperCamelCAse e la squadra in questione con l'iniziale in maiuscolo)
 
-d1)
+d1)Come con lo /giocatori,attraverso il comando Get di postman si può ottenere, dopo aver scritto  {"nomeSquadra":"Juventus"} con Post, tutte le statistiche inerenti alla squadra o alle squadre di cui si vogliono conoscere tali dati.(qui l'esempio è stato fatto con la Juventus ottenendo tutte le statistiche che volevamo che abbiamo inserito nella classe squadra nel model)
 
+https://user-images.githubusercontent.com/99751208/158959989-bdd76bb1-a7ed-41ae-853f-ff159b4f9b86.mp4
 
+d2)
 
 
 
