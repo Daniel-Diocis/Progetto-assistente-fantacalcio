@@ -137,7 +137,14 @@ d1)Come con lo /giocatori,attraverso il comando Get di postman si può ottenere,
 
 https://user-images.githubusercontent.com/99751208/158959989-bdd76bb1-a7ed-41ae-853f-ff159b4f9b86.mp4
 
-d2)
+d2)Infine:
+- Dopo aver ottenuto la lista di squadra con Get
+- Dopo che noi abbiamo scritto {"nomeSquadra":"Juventus"} e {"nomeSquadra":"Bologna"} per creare con la Post e con la Get ottenere queste due squadre
+- Si puo togliere con la Delete di Postman una squadra che, forse per sbaglio, avevi chiesto le statistiche(l'esempio lo abbiamo fatto con Juventus e Bologna usando la delete su qeust'utlima squadra).
+
+https://user-images.githubusercontent.com/99751208/158960957-be68fa06-c387-4f95-bb0c-9a91ce2d5af0.mp4
+
+
 
 
 
@@ -146,9 +153,9 @@ d2)
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
 Noi abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com) per la scrittura e creazione del file html per l'esempio di interfaccia che ci siamo immaginati dovesse avere il programma.
-I due comandi principali sono /database e /giocatori ma come vedrai continuando a leggere ci sono anche /squadra e /delete(con il loro relativo utilizzo e scopo)
+I Tre principali sono /database , /giocatori e /squadra(con il loro relativo utilizzo e scopo)
 - Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare. Il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html). Ovviamente i tasti che si vedono integrati nel build dell'html non sono collegati e perciò non svolgono alcuna funzione, in quanto non abbiamo implementato tale interfaccia ad Eclipse.
-- Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel delete di postman scrivendo /giocatori/GiocatorechesivuoleCancellare, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
+- Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel Delete di postman scrivendo /giocatori/GiocatorechesivuoleCancellare, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
 - L'ultimo comando che abbiamo implementato è lo /squadra ovvero il comando che ti permette di avere tutte le statistiche della squadra che ti serve per scegliere i tuoi fantagiocatori al meglio e non sbagliare; statistiche come il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti cosi nel caso si voglia scegliere il portiere a seconda di quanti gol ha subito quella squdra, tu scegli il miglior portiere in circolazione.(stesso tipo di ragionamento lo si puo fare per difensori,centrocampisti e attacanti a seconda dei gol fatti dalla squadra)
 
 
