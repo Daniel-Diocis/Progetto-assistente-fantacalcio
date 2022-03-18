@@ -122,15 +122,15 @@ a)Qui potete vedre come noi abbiamo eseguito su postman,tramite la Get, il coman
 
 https://user-images.githubusercontent.com/99751208/158898499-855ec8ec-3883-472a-8712-5b8257b341e8.mp4
 
-b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche (:rotating_light:Mi raccomando per creare,scrivere per esempio {"nome":VLAHOVIC} e usare la Post, scrivere il nome del giocatore tutto in maiuscolo e il nome tutto in minuscolo entrambi tra doppie virgolette e separati dai due punti senno darà errore. Poi lanciare il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
+b)Dopo aver richiamato /database, tramite la  Get di postman e dopo aver creato i nomi dei giocatori di cui volevamo avere le statistiche (:rotating_light:Mi raccomando per creare,scrivere per esempio {"nome":VLAHOVIC} e usare la Post, scrivere il nome del giocatore tutto in maiuscolo e  nome tutto in minuscolo entrambi tra doppie virgolette e separati dai due punti senno darà errore. Poi lanciare il comando /giocatori e così facendo si ottengono tutte le statistiche(nome,squadra,ruolo,mediaVoto,mediaFantaVoto...) dei giocatori chiamati in precedenza.
 
 https://user-images.githubusercontent.com/99751208/158898999-ec1b9ddb-4c43-470b-b373-4b533f27cd43.mp4
 
-c)Dopo aver svolto i primi due comandi, se per esempio avevamo richiesto i dati di un giocatore che in realtà non volevamo(l'esempio nel video è stato fatto con Vlhaovic), ora possiamo lanciare il comando Delete per togliere dalla lista il giocatore che non volevamo vedere più.
+c)Dopo aver svolto i primi due comandi, se per esempio avevamo richiesto i dati di un giocatore che in realtà non volevamo(l'esempio nel video è stato fatto con Vlhaovic), ora possiamo lanciare il comando Delete, scrivendo dopo /giocatori il nome tutto in maiuscolo del giocatore che si vuole cancellare preceduto dallo /, per togliere dalla lista tale giocatore che non volevamo vedere più.
 
 https://user-images.githubusercontent.com/99751208/158899514-e8176710-e514-44c8-9d8d-b7f34cfaecdd.mp4
 
-d)Un altro comando utile è lo /squadra che ti permette di avere tutte le statistiche riguardanti una squadra reale (il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti) in modo tale che quando si va a scegliere i giocatori della tua fantaSquadra li scegli al meglio senza sbagliare.(:rotating_light:Attenzione come per lo slash squadra bper richiamare questa funzione bisogna scrivere {"nomeSquadra":"Juventus"}, ovvero con nomeSquadra scritto in UpperCamelCAse e la squadra in questione con l'iniziale in maiuscolo)
+d)Un altro comando utile è lo /squadra che ti permette di avere tutte le statistiche riguardanti una squadra reale (il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti) in modo tale che quando si va a scegliere i giocatori della tua fantaSquadra li scegli al meglio senza sbagliare.(:rotating_light:Attenzione come per lo slash squadra per richiamare questa funzione bisogna scrivere ad esempio {"nomeSquadra":"Juventus"}, ovvero con nomeSquadra scritto in UpperCamelCAse e la squadra in questione con l'iniziale in maiuscolo)
 
 d1)Come con lo /giocatori,attraverso il comando Get di postman si può ottenere, dopo aver scritto  {"nomeSquadra":"Juventus"} con Post, tutte le statistiche inerenti alla squadra o alle squadre di cui si vogliono conoscere tali dati.(qui l'esempio è stato fatto con la Juventus ottenendo tutte le statistiche che volevamo che abbiamo inserito nella classe squadra nel model)
 
@@ -152,10 +152,10 @@ https://user-images.githubusercontent.com/99751208/158960957-be68fa06-c387-4f95-
 <img width="1432" alt="Schermata 2022-03-17 alle 18 04 08" src="https://user-images.githubusercontent.com/99751208/158855796-ab2428d1-ef87-400b-8514-7c2731cd62fa.png">
 
 Noi abbiamo utilizzato Visual Studio Code, scaricato [a questo link](https://code.visualstudio.com) per la scrittura e creazione del file html per l'esempio di interfaccia che ci siamo immaginati dovesse avere il programma.
-I Tre principali sono /database , /giocatori e /squadra(con il loro relativo utilizzo e scopo)
+I Tre principali comandi sono /database , /giocatori e /squadra(con il loro relativo utilizzo e scopo)
 - Questo è come vorremmo che si mostrasse la nostra applicazione ad un utente che la volesse utilizzare. Il file html dell'interfaccia è [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/blob/main/EsempioInterfaccia.html). Ovviamente i tasti che si vedono integrati nel build dell'html non sono collegati e perciò non svolgono alcuna funzione, in quanto non abbiamo implementato tale interfaccia ad Eclipse.
 - Inoltre, oltre ai comandi sopra elencati di /database e /giocatori è possibile, nel Delete di postman scrivendo /giocatori/GIOCATOREDACANCELLARE, cancellare il calciatore scelto nella lista prima ottenuta con il comando /database.
-- L'ultimo comando che abbiamo implementato è lo /squadra ovvero il comando che ti permette di avere tutte le statistiche della squadra che ti serve per scegliere i tuoi fantagiocatori al meglio e non sbagliare; statistiche come il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti cosi nel caso si voglia scegliere il portiere a seconda di quanti gol ha subito quella squdra, tu scegli il miglior portiere in circolazione.(stesso tipo di ragionamento lo si puo fare per difensori,centrocampisti e attacanti a seconda dei gol fatti dalla squadra)
+- L'ultimo comando che abbiamo implementato è lo /squadra ovvero il comando che ti permette di avere tutte le statistiche della squadra che ti serve per scegliere i tuoi fantagiocatori al meglio e non sbagliare; statistiche come il posizionamento in classifica, i suoi punti, quante partite ha vinto,perso o pareggiato,i gol subiti cosi nel caso si voglia scegliere il portiere a seconda di quanti gol ha subito quella squdra, tu scegli il miglior portiere in circolazione.(stesso tipo di ragionamento lo si puo fare per difensori,centrocampisti e attacanti a seconda dei gol fatti dalla squadra per esempio)
 
 
 ###                                    AUTORI DEL PROGETTO:it::student:
