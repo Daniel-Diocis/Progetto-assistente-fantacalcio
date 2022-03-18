@@ -85,12 +85,12 @@ Noi siamo partiti dalla costruzione del nostro package Model, ovvero il pacchett
 
 #### Fase 6: Creazione Classi del Service
 Come passo successivo nello sviluppo del nostro software abbiamo creato tutte le classi appartenenti al nostro Service,il quale ci fa vedere  i dati contenuti nel model e che si occupa dell'interazione con utenti e agenti. 
-(Per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/service)).
+(Per arrivare subito al service del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/service)).
 
 <img width="194" alt="Schermata 2022-03-17 alle 18 43 25" src="https://user-images.githubusercontent.com/99751208/158863243-51d836b9-59d0-4a20-8b34-6f1dcf05ea16.png">
 
 #### Fase 7: Creazione Classi del Controller
-Dopo aver terminato la creazione dei precedenti due èacchetti principali ,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che  servirà per ricevere i comandi dell'utente,attraverso il package service, mettendoli in pratica modificando allo stesso tempo lo stato degli altri due componenti.(per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/controller)).
+Dopo aver terminato la creazione dei precedenti due èacchetti principali ,noi siamo passati al costruire il package Controller, ovvero, come detto già in precedenza, colui che  servirà per ricevere i comandi dell'utente,attraverso il package service, mettendoli in pratica modificando allo stesso tempo lo stato degli altri due componenti.(Per arrivare subito al controller del progetto e vederlo nella sua interezza cliccare [qui](https://github.com/Daniel-Diocis/Progetto-assistente-fantacalcio/tree/main/AssistenteFantacalcio/src/main/java/it/univpm/AssistenteFantacalcio/controller)).
 
 <img width="255" alt="Schermata 2022-03-10 alle 18 33 28" src="https://user-images.githubusercontent.com/99751208/157721682-5b05a065-1d67-4afd-bea6-69c2054febc1.png">
 
